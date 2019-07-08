@@ -1,0 +1,15 @@
+/* CSS Document */
+
+
+.test {
+	width: 50vw;
+	align-content: center;
+	text-transform: uppercase;
+	background: yellow;
+	font-family: "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-weight: 100;
+}
+
+.container {
+	align-content: center;
+}
