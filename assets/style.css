@@ -30,7 +30,29 @@
 }
 /*-------------------Link Styling*/
 /*-------------------Main styling*/
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
 /*-------------------Home Styling*/
+.home-section-bg {
+    height: 100vh;
+    background: #FFBAD2;
+    background: url(images/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.home-section-logo {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.home-button {
+    text-align: right;
+    color: #FFBAD2;
+    background-color: #F20056;
+}
 /*-------------------Treatments Styling*/
 /*-------------------Appointments styling*/
 /*-------------------Gallery Styling*/
