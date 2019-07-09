@@ -1,22 +1,38 @@
-
 /*-------------------General Styling*/
-
 /*-------------------Text Styling*/
-
 /*-------------------Colour Styling*/
+/*-------------------Nav Styling*/
+.menu-button {
+    color: #F20056;
+}
 
+.navbar {
+    padding: 0;
+    background-color: #C8CFB4;
+}
+
+.navbar-brand {
+    margin-left: 10px;
+}
+
+.navbar-nav {
+    margin-right: 10px;
+}
+
+.navbar-collapse {
+    height: 100vh;
+    text-align: right
+}
+
+.nav-barlogo-notext {
+    width: 78px;
+    height: auto;
+}
 /*-------------------Link Styling*/
-
 /*-------------------Main styling*/
-
 /*-------------------Home Styling*/
-
 /*-------------------Treatments Styling*/
-
 /*-------------------Appointments styling*/
-
 /*-------------------Gallery Styling*/
-
 /*-------------------About Us Styling*/
-
 /*-------------------Footer Styling*/
