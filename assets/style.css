@@ -54,6 +54,12 @@
     background-color: #F20056;
 }
 /*-------------------Treatments Styling*/
+.treatments-intro-image {
+	height: 50vh;
+	background: url("images/treatments-intro.jpg") no-repeat fixed;
+	background-size: cover;
+	background-position: fixed;
+}
 /*-------------------Appointments styling*/
 /*-------------------Gallery Styling*/
 /*-------------------About Us Styling*/
