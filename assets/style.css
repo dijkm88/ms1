@@ -60,6 +60,13 @@
 	background-size: cover;
 	background-position: fixed;
 }
+.cardsrow {
+	margin: 15px; 
+}
+
+.cardscol {
+	padding-bottom: 7.5px;
+}
 /*-------------------Appointments styling*/
 /*-------------------Gallery Styling*/
 /*-------------------About Us Styling*/
