@@ -21,13 +21,19 @@
 
 .navbar-collapse {
     height: 100vh;
-    text-align: right
+    text-align: right;
 }
 
 .nav-barlogo-notext {
     width: 78px;
     height: auto;
 }
+
+.navbar-text {
+	font-size: 45px;
+	text-transform: uppercase;
+}
+
 /*-------------------Link Styling*/
 /*-------------------Main styling*/
 .container-fluid {
@@ -68,6 +74,14 @@
 	padding-bottom: 7.5px;
 }
 /*-------------------Appointments styling*/
+.appointments-intro-image {
+	height: 50vh;
+	background: url("images/appointments-intro.jpg") no-repeat fixed;
+	background-size: cover;
+	background-position: fixed;
+}
+
 /*-------------------Gallery Styling*/
 /*-------------------About Us Styling*/
 /*-------------------Footer Styling*/
+
