@@ -62,6 +62,13 @@ When you're on the full desktop site, and hover over a link, the link will chang
 - - - - 
 
 ### Content ###
-### Media ###
-### Acknowledgements ###
+The content (text and some of the images) has been created together with my family member, whom the site is meant for.
 
+### Media ###
+Some of the images have been taken from pixabay.
+- Nailpolish image for treatments section
+- Agenda image for appointments section
+
+
+### Acknowledgements ###
+I received a lot of inspiration for the design from: uxplanet.
