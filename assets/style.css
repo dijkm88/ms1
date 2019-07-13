@@ -41,6 +41,23 @@
 }
 
 /*-------------------Link Styling*/
+#navbarlinks a:link {
+	color: #F20056;
+}
+
+#navbarlinks a:visited {
+	color: #F20056;
+}
+
+#navbarlinks a:hover {
+	color: #C8CFB4;
+	text-shadow: 4px 3px 2px #F20056;
+}
+
+#navbarlinks a:active {
+	color: #C8CFB4;
+	text-shadow: 4px 3px 2px #F20056;
+}
 
 
 /*-------------------Main styling*/
