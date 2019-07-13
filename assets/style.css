@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:200,800,900|M+PLUS+Rounded+1c:900&display=swap');
+
 /*-------------------General Styling*/
 /*-------------------Text Styling*/
 /*-------------------Colour Styling*/
@@ -8,7 +10,7 @@
 
 .navbar {
     padding: 0;
-    background-color: #C8CFB4;
+    background-color: #FFBAD2;
 }
 
 .navbar-brand {
@@ -30,11 +32,17 @@
 }
 
 .navbar-text {
-	font-size: 45px;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-weight: 900;
+	font-size: 41px;
+	text-shadow: 4px 3px 2px #C8CFB4;
 	text-transform: uppercase;
+	color: #F20056;
 }
 
 /*-------------------Link Styling*/
+
+
 /*-------------------Main styling*/
 .container-fluid {
     padding-right: 0;
