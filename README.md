@@ -71,6 +71,6 @@ Some of the images have been taken from pixabay.
 
 
 ### Acknowledgements ###
-I received a lot of inspiration for the design from: uxplanet.
-I used text-shadow generator from [HTML - CSS - JS: The Client-Side Of The Web](https://html-css-js.com/css/generator/text-shadow/ "Text Shadow Generator")
-I found a lot of answers on queries that I had in relation to my coding on [Stack Overflow](https://stackoverflow.com "Stack Overflow")
+I received a lot of inspiration for the design from: uxplanet.  
+I used text-shadow generator from [HTML - CSS - JS: The Client-Side Of The Web](https://html-css-js.com/css/generator/text-shadow/ "Text Shadow Generator")  
+I found a lot of answers on queries that I had in relation to my coding on [Stack Overflow](https://stackoverflow.com "Stack Overflow")  
