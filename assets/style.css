@@ -1,8 +1,58 @@
-@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:200,800,900|M+PLUS+Rounded+1c:900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:300,400,600,800,900|M+PLUS+Rounded+1c:900&display=swap');
 
 /*-------------------General Styling*/
+.site-button {
+    text-align: right;
+    color: #FFBAD2;
+    background-color: #F20056;
+}
+
 /*-------------------Text Styling*/
+.navbar-text {
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-weight: 900;
+	font-size: 41px;
+	text-shadow: 4px 3px 2px #C8CFB4;
+	text-transform: uppercase;
+	color: #F20056;
+}
+
+.h3-home {
+	font-family: 'Encode Sans Condensed', sans-serif;
+	font-weight: 900;
+	color: #F20056;
+	text-shadow: 1px 2px 0px rgba(200,207,180,0.47);
+}
+
+.p-home {
+	font-family: 'Encode Sans Condensed', sans-serif;
+	font-weight: 600;
+	color: #F20056;
+	text-shadow: 1px 2px 0px rgba(200,207,180,0.47);
+}
+
+.home-button {
+	font-family: 'Encode Sans Condensed', sans-serif;
+	font-weight: 400;
+}
+
+.h4-treatments {
+	font-family: 'Encode Sans Condensed', sans-serif;
+	font-weight: 600;
+	color: #F20056;
+	text-shadow: 1px 2px 0px rgba(200,207,180,0.47);
+}
+
+.p-treatments {
+	font-family: 'Encode Sans Condensed', sans-serif;
+	font-weight: 300;
+	color: #F20056;
+	text-shadow: 1px 2px 0px rgba(200,207,180,0.47);
+}
+
 /*-------------------Colour Styling*/
+
+
 /*-------------------Nav Styling*/
 .menu-button {
     color: #F20056;
@@ -31,14 +81,7 @@
     height: auto;
 }
 
-.navbar-text {
-	font-family: 'M PLUS Rounded 1c', sans-serif;
-	font-weight: 900;
-	font-size: 41px;
-	text-shadow: 4px 3px 2px #C8CFB4;
-	text-transform: uppercase;
-	color: #F20056;
-}
+
 
 /*-------------------Link Styling*/
 #navbarlinks a:link {
@@ -88,15 +131,28 @@
 .treatments-intro-image {
 	height: 50vh;
 	background: url("images/treatments-intro.jpg") no-repeat fixed;
+	background-color: #C8CFB4;
 	background-size: cover;
 	background-position: fixed;
 }
-.cardsrow {
-	margin: 15px; 
+
+.treatments-intro-row {
+	background-color: #C8CFB4;
+}
+/*.cardsrow {
+	padding: 15px; 
+}*/
+
+.cards-col {
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-bottom: 10px;
+	background-color: #C8CFB4;
 }
 
-.cardscol {
-	padding-bottom: 7.5px;
+.treatments-cards {
+	background-color: #FFBAD2;
+	text-align-last: center;
 }
 /*-------------------Appointments styling*/
 .appointments-intro-image {
