@@ -44,28 +44,24 @@
 }
 .p-treatments {
   font-family: 'Encode Sans Condensed', sans-serif;
-  text-transform: capitalize;
   font-weight: 300;
   color: #F20056;
-  text-shadow: 1px 2px 0px rgba(200, 207, 180, 0.47);
+	margin: 10px;
 }
 .h5-treatments-card {
   font-family: 'Encode Sans Condensed', sans-serif;
   font-weight: 800;
   color: #F20056;
-  text-shadow: 1px 2px 0px rgba(200, 207, 180, 0.47);
 }
 .h4-treatments-card {
   font-family: 'Encode Sans Condensed', sans-serif;
   font-weight: 600;
   color: #F20056;
-  text-shadow: 1px 2px 0px rgba(200, 207, 180, 0.47);
 }
 .p-treatments-card {
   font-family: 'Encode Sans Condensed', sans-serif;
   font-weight: 300;
   color: #F20056;
-  text-shadow: 1px 2px 0px rgba(200, 207, 180, 0.47);
 }
 .h4-appointments {
   font-family: 'Encode Sans Condensed', sans-serif;
