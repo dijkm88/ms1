@@ -1,202 +1,173 @@
 @import url('https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:300,400,600,800,900|M+PLUS+Rounded+1c:900&display=swap');
-
 /*-------------------General Styling*/
 .html {
-	padding: 0;
-	margin: 0;
-	
+  padding: 0;
+  margin: 0;
 }
-
 .site-button {
-    text-align: right;
-    color: #FFBAD2;
-    background-color: #F20056;
+  text-align: right;
+  color: #FFBAD2;
+  background-color: #F20056;
 }
-
 /*-------------------Text Styling*/
 .navbar-text {
-	font-family: 'M PLUS Rounded 1c', sans-serif;
-	font-weight: 900;
-	font-size: 41px;
-	text-shadow: 4px 3px 2px #C8CFB4;
-	text-transform: uppercase;
-	color: #F20056;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: 900;
+  font-size: 41px;
+  text-shadow: 4px 3px 2px #C8CFB4;
+  text-transform: uppercase;
+  color: #F20056;
 }
-
 .h3-home {
-	font-family: 'Encode Sans Condensed', sans-serif;
-	font-weight: 900;
-	color: #F20056;
-	text-shadow: 1px 2px 0px rgba(200,207,180,0.47);
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-weight: 900;
+  color: #F20056;
+  text-shadow: 1px 2px 0px rgba(200, 207, 180, 0.47);
 }
-
 .p-home {
-	font-family: 'Encode Sans Condensed', sans-serif;
-	font-weight: 600;
-	color: #F20056;
-	text-shadow: 1px 2px 0px rgba(200,207,180,0.47);
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-weight: 600;
+  color: #F20056;
+  text-shadow: 1px 2px 0px rgba(200, 207, 180, 0.47);
 }
-
 .home-button {
-	font-family: 'Encode Sans Condensed', sans-serif;
-	font-weight: 400;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-weight: 400;
 }
-
 .h4-treatments {
-	font-family: 'Encode Sans Condensed', sans-serif;
-	font-weight: 600;
-	color: #F20056;
-	text-shadow: 1px 2px 0px rgba(200,207,180,0.47);
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  color: #F20056;
+  text-transform: uppercase;
+  text-shadow: 1px 2px 0px rgba(200, 207, 180, 0.47);
 }
-
 .p-treatments {
-	font-family: 'Encode Sans Condensed', sans-serif;
-	font-weight: 300;
-	color: #F20056;
-	text-shadow: 1px 2px 0px rgba(200,207,180,0.47);
+  font-family: 'Encode Sans Condensed', sans-serif;
+  text-transform: capitalize;
+  font-weight: 300;
+  color: #F20056;
+  text-shadow: 1px 2px 0px rgba(200, 207, 180, 0.47);
 }
-
 .h5-treatments-card {
-	font-family: 'Encode Sans Condensed', sans-serif;
-	font-weight: 800;
-	color: #F20056;
-	text-shadow: 1px 2px 0px rgba(200,207,180,0.47);
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-weight: 800;
+  color: #F20056;
+  text-shadow: 1px 2px 0px rgba(200, 207, 180, 0.47);
 }
-
 .h4-treatments-card {
-	font-family: 'Encode Sans Condensed', sans-serif;
-	font-weight: 600;
-	color: #F20056;
-	text-shadow: 1px 2px 0px rgba(200,207,180,0.47);
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-weight: 600;
+  color: #F20056;
+  text-shadow: 1px 2px 0px rgba(200, 207, 180, 0.47);
 }
-
 .p-treatments-card {
-	font-family: 'Encode Sans Condensed', sans-serif;
-	font-weight: 300;
-	color: #F20056;
-	text-shadow: 1px 2px 0px rgba(200,207,180,0.47);
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-weight: 300;
+  color: #F20056;
+  text-shadow: 1px 2px 0px rgba(200, 207, 180, 0.47);
 }
-
+.h4-appointments {
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  color: #F20056;
+  text-transform: uppercase;
+  text-shadow: 1px 2px 0px rgba(200, 207, 180, 0.47);
+}
 /*-------------------Colour Styling*/
-
-
 /*-------------------Nav Styling*/
 .menu-button {
-    color: #F20056;
+  color: #F20056;
 }
-
 .navbar {
-    padding: 0;
-    background-color: #FFBAD2;
+  padding: 0;
+  background-color: #FFBAD2;
 }
-
 .navbar-brand {
-    margin-left: 10px;
+  margin-left: 10px;
 }
-
 .navbar-nav {
-    margin-right: 10px;
+  margin-right: 10px;
 }
-
 .navbar-collapse {
-    height: 100vh;
-    text-align: right;
+  height: 100vh;
+  text-align: right;
 }
-
 .nav-barlogo-notext {
-    width: 78px;
-    height: auto;
+  width: 78px;
+  height: auto;
 }
-
-
-
 /*-------------------Link Styling*/
 #navbarlinks a:link {
-	color: #F20056;
+  color: #F20056;
 }
-
 #navbarlinks a:visited {
-	color: #F20056;
+  color: #F20056;
 }
-
 #navbarlinks a:hover {
-	color: #C8CFB4;
-	text-shadow: 4px 3px 2px #F20056;
+  color: #C8CFB4;
+  text-shadow: 4px 3px 2px #F20056;
 }
-
 #navbarlinks a:active {
-	color: #C8CFB4;
-	text-shadow: 4px 3px 2px #F20056;
+  color: #C8CFB4;
+  text-shadow: 4px 3px 2px #F20056;
 }
-
-
 /*-------------------Main styling*/
 .container-fluid {
-    padding-right: 0;
-    padding-left: 0;
+  padding-right: 0;
+  padding-left: 0;
 }
 /*-------------------Home Styling*/
 .home-section-bg {
-    height: 100vh;
-    background: #FFBAD2;
-    background: url(images/background.jpg) no-repeat center center fixed;
-    background-size: cover;
+  height: 100vh;
+  background: #FFBAD2;
+  background: url(images/background.jpg) no-repeat center center fixed;
+  background-size: cover;
 }
-
 .home-section-logo {
-    max-width: 200px;
-    height: auto;
-    margin-bottom: 25px;
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 25px;
 }
-
 .home-button {
-    text-align: right;
-    color: #FFBAD2;
-    background-color: #F20056;
+  text-align: right;
+  color: #FFBAD2;
+  background-color: #F20056;
 }
 /*-------------------Treatments Styling*/
 .treatments-intro-image {
-	height: 50vh;
-	background: url("images/treatments-intro.jpg") no-repeat fixed;
-	background-color: #C8CFB4;
-	background-size: cover;
-	background-position: fixed;
+  height: 25vh;
+  background: linear-gradient(127deg, rgba(255, 186, 210, 1) 0%, rgba(200, 207, 180, 0.5186449579831933) 30%), url("images/treatments-intro.jpg") no-repeat center;
+  background-size: cover;
 }
-
 .treatments-intro-row {
-	background-color: #C8CFB4;
+  background-color: #C8CFB4;
 }
 /*.cardsrow {
 	padding: 15px; 
 }*/
-
 .cards-col {
-	padding-left: 24px;
-	padding-right: 24px;
-	padding-bottom: 10px;
-	background-color: #C8CFB4;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 10px;
+  background-color: #C8CFB4;
 }
-
 .treatments-cards {
-	background-color: #FFBAD2;
-	text-align-last: center;
+  background-color: #FFBAD2;
+  text-align-last: center;
 }
-
 .card-img-top {
-    width: 100%;
-    height: 22vw;
-    object-fit: cover;
+  width: 100%;
+  height: 22vw;
+  object-fit: cover;
 }
-
 /*-------------------Appointments styling*/
 .appointments-intro-image {
-	height: 50vh;
-	background: url("images/appointments-intro.jpg") no-repeat fixed;
-	background-size: cover;
-	background-position: fixed;
+  height: 25vh;
+  background: linear-gradient(127deg, rgba(255, 186, 210, 1) 0%, rgba(200, 207, 180, 0.5186449579831933) 30%), url("images/appointments-intro.jpg") no-repeat center;
+  background-size: cover;
 }
-
 /*-------------------Gallery Styling*/
 /*-------------------About Us Styling*/
 /*-------------------Footer Styling*/
-
