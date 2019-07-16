@@ -173,47 +173,38 @@
     </div>
     <div class="row">
       <div class="col appointments-column"> 
-        <!-- Form -->
-            <form class="text-center" style="color: #757575;" action="#!">
-              
-              <!-- Name -->
-              <div class="md-form mt-3">
-                <input type="text" id="materialContactFormName" class="form-control">
-                <label for="materialContactFormName">Name</label>
-              </div>
-              
-              <!-- E-mail -->
-              <div class="md-form">
-                <input type="email" id="materialContactFormEmail" class="form-control">
-                <label for="materialContactFormEmail">E-mail</label>
-              </div>
-              
-              <!-- Subject --> 
-              <span>Subject</span>
-              <select class="mdb-select">
-                <option value="" disabled>Choose option</option>
-                <option value="1" selected>Feedback</option>
-                <option value="2">Report a bug</option>
-                <option value="3">Feature request</option>
-                <option value="4">Feature request</option>
-              </select>
-              
-              <!--Message-->
-              <div class="md-form">
-                <textarea id="materialContactFormMessage" class="form-control md-textarea" rows="3"></textarea>
-                <label for="materialContactFormMessage">Message</label>
-              </div>
-              
-              <!-- Copy -->
-              <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="materialContactFormCopy">
-                <label class="form-check-label" for="materialContactFormCopy">Send me a copy of this message</label>
-              </div>
-              
-              <!-- Send button -->
-              <button class="btn btn-outline-info btn-rounded btn-block z-depth-0 my-4 waves-effect" type="submit">Send</button>
-            </form>
-            <!-- Form --> 
+        <!-- Default form register -->
+        <form class="text-center border border-light p-5" action="#!">
+          <div class="form-row mb-4">
+            <div class="col"> 
+              <!-- First name -->
+              <input type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="First name">
+            </div>
+            <div class="col"> 
+              <!-- Last name -->
+              <input type="text" id="defaultRegisterFormLastName" class="form-control" placeholder="Last name">
+            </div>
+          </div>
+          
+          <!-- E-mail -->
+          <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail">
+          <!-- Phone number -->
+          <input type="text" id="defaultRegisterPhonePassword" class="form-control" placeholder="Phone number" aria-describedby="defaultRegisterFormPhoneHelpBlock">
+          <div class="form-row mt-4">
+            <input placeholder="Selected date" type="text" id="date-picker-example" class="form-control datepicker">
+            <label for="date-picker-example">Try me...</label>
+          </div>
+          
+          <!-- Newsletter -->
+          <div class="custom-control custom-checkbox mt-2">
+            <input type="checkbox" class="custom-control-input" id="defaultRegisterFormNewsletter">
+            <label class="custom-control-label" for="defaultRegisterFormNewsletter">Subscribe to our newsletter</label>
+          </div>
+          
+          <!-- Sign up button -->
+          <button class="btn site-button waves-effect waves-light" type="submit">Send</button>
+        </form>
+        <!-- Default form register --> 
       </div>
     </div>
     <!--End of Appointments Section Content--> 
@@ -238,6 +229,10 @@
 <!-- Bootstrap core JavaScript --> 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script> 
 <!-- MDB core JavaScript --> 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.5/js/mdb.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.5/js/mdb.min.js"></script> 
+<script>
+	// Data Picker Initialization
+$('.datepicker').pickadate();
+	</script>
 </body>
 </html>
