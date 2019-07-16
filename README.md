@@ -74,3 +74,6 @@ Some of the images have been taken from pixabay.
 I received a lot of inspiration for the design from: uxplanet.  
 I used text-shadow generator from [HTML - CSS - JS: The Client-Side Of The Web](https://html-css-js.com/css/generator/text-shadow/ "Text Shadow Generator")  
 I found a lot of answers on queries that I had in relation to my coding on [Stack Overflow](https://stackoverflow.com "Stack Overflow")  
+I used some sites for helping me choose the right colour scheme:  
+[WebsiteBuilderExpert](https://www.websitebuilderexpert.com/designing-websites/how-to-choose-color-for-your-website/ "How to Choose Good Website Color Scheme")  
+[Color Combos](https://www.colorcombos.com/color-scheme-126.html/ "Colour Combinations Tester")  
