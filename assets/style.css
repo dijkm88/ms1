@@ -9,6 +9,11 @@
   color: #FFBAD2;
   background-color: #F20056;
 }
+
+.row{ 
+    margin-left: 0;
+    margin-right: 0;
+}
 /*-------------------Text Styling*/
 .navbar-text {
   font-family: 'M PLUS Rounded 1c', sans-serif;
