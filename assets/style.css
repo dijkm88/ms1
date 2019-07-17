@@ -9,10 +9,9 @@
   color: #FFBAD2;
   background-color: #F20056;
 }
-
-.row{ 
-    margin-left: 0;
-    margin-right: 0;
+.row {
+  margin-left: 0;
+  margin-right: 0;
 }
 /*-------------------Text Styling*/
 .navbar-text {
@@ -76,6 +75,11 @@
   text-transform: uppercase;
   text-shadow: 2px 2px 0px rgb(242, 0, 86);
 }
+
+.fab {
+    font-size: 29px;
+}
+
 /*-------------------Nav Styling*/
 .menu-button {
   color: #F20056;
@@ -83,6 +87,7 @@
 .navbar {
   padding: 0;
   background-color: #FFBAD2;
+  box-shadow: 0px 5px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
 }
 .navbar-brand {
   margin-left: 10px;
@@ -175,8 +180,8 @@
   background: linear-gradient(127deg, rgba(255, 186, 210, 1) 0%, rgba(200, 207, 180, 0.5186449579831933) 30%), url("images/gallery-intro.jpg") no-repeat scroll 50% 30%;
   background-size: cover;
 }
-.gallery-img img{
-    width: 100%;
+.gallery-img img {
+  width: 100%;
 }
 .gallery-row {
   background-color: #C8CFB4;
@@ -191,19 +196,23 @@
   background-color: #C8CFB4;
 }
 /*-------------------Footer Styling*/
+.footer-row {
+  background-color: #FFBAD2;
+  box-shadow: 0px -5px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+}
 /*-------------------Media Queries*/
 /*phones and tablets*/
-@media screen and (max-width: 992px) { 
-	.gallery-img {
-		display: -webkit-box;
-		display: -webkit-flex;
-		display: -ms-flexbox;
-		display: flex;
-		-webkit-box-pack: center;
-		-webkit-justify-content: center;
-		    -ms-flex-pack: center;
-		        justify-content: center;
-		max-width: 50%;
-		padding: 10px;
-	}
-} 
+@media screen and (max-width: 992px) {
+  .gallery-img {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    max-width: 50%;
+    padding: 10px;
+  }
+}
