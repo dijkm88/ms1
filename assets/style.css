@@ -118,6 +118,23 @@
   color: #C8CFB4;
   text-shadow: 4px 3px 2px #F20056;
 }
+
+#sociallinks a:link {
+  color: #F20056;
+}
+#sociallinks a:visited {
+  color: #F20056;
+}
+#sociallinks a:hover {
+  color: #C8CFB4;
+  text-shadow: 4px 3px 2px #F20056;
+}
+#sociallinks a:active {
+  color: #C8CFB4;
+  text-shadow: 4px 3px 2px #F20056;
+}
+
+
 /*-------------------Main styling*/
 .container-fluid {
   padding-right: 0;
