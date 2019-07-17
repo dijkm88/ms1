@@ -165,13 +165,7 @@
   padding: 30px;
 }
 /*-------------------Gallery Styling*/
-.gallery-wrapper {
-  background-color: #C8CFB4;
-  padding: 15px;
-}
-.carousel {
-  position: relative;
-}
+
 /*-------------------About Us Styling*/
 .about-intro-image {
   height: 25vh;
