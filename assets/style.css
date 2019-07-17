@@ -117,7 +117,7 @@
 .home-section-bg {
   height: 100vh;
   background: #FFBAD2;
-  background: url(images/background.jpg) no-repeat center center fixed;
+  background: linear-gradient(to bottom, rgba(255, 186, 210, 0.78) 0%, rgba(200, 207, 180, 0.45) 100%), url("images/background1.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 .home-section-logo {
@@ -165,6 +165,13 @@
   padding: 30px;
 }
 /*-------------------Gallery Styling*/
+.gallery-wrapper {
+  background-color: #C8CFB4;
+  padding: 15px;
+}
+.carousel {
+  position: relative;
+}
 /*-------------------About Us Styling*/
 .about-intro-image {
   height: 25vh;
@@ -172,8 +179,7 @@
   background-size: cover;
 }
 .about-row {
-    background-color: #C8CFB4;
-    }
-
+  background-color: #C8CFB4;
+}
 /*-------------------Footer Styling*/
 /*-------------------Media Queries*/
