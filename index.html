@@ -10,10 +10,12 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
 <!-- Material Design Bootstrap -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.5/css/mdb.min.css" rel="stylesheet">
+<!-- Fancybox CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css" />
 <!-- own CSS -->
 <link rel="stylesheet" href="assets/style.css">
 <title>Sarina Nails & Beauty</title>
-	</head>
+</head>
 
 <body>
 <div class="container-fluid"> 
@@ -209,13 +211,32 @@
     </div>
     <!--End of Appointments Section Content--> 
     
-    <!--Start of Gallery Section Content--> 
-<div class="row gallery-intro-image">
+    <!--Start of Gallery Section Content-->
+    <div class="row gallery-intro-image">
       <div class="col-sm-12 text-center my-auto">
         <h4 class="h4-treatments">Gallery of my Work</h4>
       </div>
     </div>
-	  
+    <div class="row gallery-row justify-content-center">
+      <div class="col-sm-12 col-md-10">
+        <div class="row align-items-center text-center">
+          <figure class="col-sm-6 gallery-img"> <a data-fancybox="gallery" data-caption="Some caption for image in gallery" href="assets/images/gallery/gallery1.jpg"> <img class="gallery-thumbnail" src="assets/images/gallery/gallery1-thumb.jpg" alt="ALT caption"> </a> </figure>
+          <figure class="col-sm-6 gallery-img"> <a data-fancybox="gallery" data-caption="Some caption for image in gallery" href="assets/images/gallery/gallery2.jpg"> <img class="gallery-thumbnail" src="assets/images/gallery/gallery2-thumb.jpg" alt="ALT caption"> </a> </figure>
+        </div>
+        <div class="row align-items-center text-center">
+          <figure class="col-sm-6 gallery-img"> <a data-fancybox="gallery" data-caption="Some caption for image in gallery" href="assets/images/gallery/gallery1.jpg"> <img class="gallery-thumbnail" src="assets/images/gallery/gallery1-thumb.jpg" alt="ALT caption"> </a> </figure>
+          <figure class="col-sm-6 gallery-img"> <a data-fancybox="gallery" data-caption="Some caption for image in gallery" href="assets/images/gallery/gallery2.jpg"> <img class="gallery-thumbnail" src="assets/images/gallery/gallery2-thumb.jpg" alt="ALT caption"> </a> </figure>
+        </div>
+        <div class="row align-items-center text-center">
+          <figure class="col-sm-6 gallery-img"> <a data-fancybox="gallery" data-caption="Some caption for image in gallery" href="assets/images/gallery/gallery1.jpg"> <img class="gallery-thumbnail" src="assets/images/gallery/gallery1-thumb.jpg" alt="ALT caption"> </a> </figure>
+          <figure class="col-sm-6 gallery-img"> <a data-fancybox="gallery" data-caption="Some caption for image in gallery" href="assets/images/gallery/gallery2.jpg"> <img class="gallery-thumbnail" src="assets/images/gallery/gallery2-thumb.jpg" alt="ALT caption"> </a> </figure>
+        </div>
+        <div class="row align-items-center text-center">
+          <figure class="col-sm-6 gallery-img"> <a data-fancybox="gallery" data-caption="Some caption for image in gallery" href="assets/images/gallery/gallery1.jpg"> <img class="gallery-thumbnail" src="assets/images/gallery/gallery1-thumb.jpg" alt="ALT caption"> </a> </figure>
+          <figure class="col-sm-6 gallery-img"> <a data-fancybox="gallery" data-caption="Some caption for image in gallery" href="assets/images/gallery/gallery2.jpg"> <img class="gallery-thumbnail" src="assets/images/gallery/gallery2-thumb.jpg" alt="ALT caption"> </a> </figure>
+        </div>
+      </div>
+    </div>
     <!--End of Gallery Section Content--> 
     
     <!--Start of About Us Content-->
@@ -243,21 +264,21 @@
 
 <!-- JQuery --> 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+<!-- Fancybox image gallery --> 
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script> 
 <!-- Bootstrap tooltips --> 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script> 
 <!-- Bootstrap core JavaScript --> 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script> 
 <!-- MDB core JavaScript --> 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.5/js/mdb.min.js"></script> 
+
+<!-- Navbar collapse script --> 
+<!--Original code credit: https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click --> 
 <script>
 $('.navbar-nav>li>a').on('click', function(){
     $('.navbar-collapse').collapse('hide');
 });
 </script>
-<!-- Datepicker form script --> 
-<script>
-	// Data Picker Initialization
-$('.datepicker').pickadate();
-	</script>
 </body>
 </html>
