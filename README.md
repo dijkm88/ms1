@@ -77,3 +77,4 @@ I found a lot of answers on queries that I had in relation to my coding on [Stac
 I used some sites for helping me choose the right colour scheme:  
 [WebsiteBuilderExpert](https://www.websitebuilderexpert.com/designing-websites/how-to-choose-color-for-your-website/ "How to Choose Good Website Color Scheme")  
 [Color Combos](https://www.colorcombos.com/color-scheme-126.html/ "Colour Combinations Tester")  
+I found a script using Jquery on stack overflow, to auto-hide menu after clicking [Stack Overflow](https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click/ "Auto hide Hamburger Menu")  
