@@ -224,6 +224,7 @@
 	padding-top: 15px;
 }
 
+/*Credit to Anna Greaves, as I was inspired by her gallery, she added the following code to the site: Anna Greaves github: https://github.com/AJGreaves*/
 /*original code credit: https://codepen.io/sdthornton/pen/wBZdXq */
 .gallery-thumbnail{ 
   -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -234,10 +235,11 @@
   border-radius: 5px; /*this code added by me*/
 }
 
+/*Credit to Anna Greaves, as I was inspired by her gallery, she added the following code to the site: Anna Greaves github: https://github.com/AJGreaves*/
 /* creates pleasing illusion of hovered image being raised up from the screen */
 /* original code credit: https://codepen.io/sdthornton/pen/wBZdXq */
 .gallery-thumbnail:hover { 
-/*width and height of hover shadow changed by me*/
+/*width and height of hover shadow code from Anna Greaves*/
   -webkit-box-shadow: 0 3px 9px rgba(0,0,0,0.25), 0 3px 6px rgba(0,0,0,0.22);
           box-shadow: 0 3px 9px rgba(0,0,0,0.25), 0 3px 6px rgba(0,0,0,0.22); 
 }
