@@ -245,9 +245,6 @@
     max-width: 300px;
     height: auto;
   }
-  .h4-treatments {
-    padding-top: 10vh;
-  }
   .about-intro-image {
     background: linear-gradient(to bottom, rgba(255, 186, 210, 0.78) 0%, rgba(200, 207, 180, 0.45) 100%), url("images/aboutus-intro.jpg") no-repeat center center fixed;
     background-size: cover;
