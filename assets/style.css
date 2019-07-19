@@ -3,6 +3,7 @@
 .html {
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
 }
 .site-button {
   text-align: right;
@@ -75,11 +76,9 @@
   text-transform: uppercase;
   text-shadow: 2px 2px 0px rgb(242, 0, 86);
 }
-
 .fab {
-    font-size: 29px;
+  font-size: 29px;
 }
-
 /*-------------------Nav Styling*/
 .menu-button {
   color: #F20056;
@@ -118,7 +117,6 @@
   color: #C8CFB4;
   text-shadow: 4px 3px 2px #F20056;
 }
-
 #sociallinks a:link {
   color: #F20056;
 }
@@ -133,8 +131,6 @@
   color: #C8CFB4;
   text-shadow: 4px 3px 2px #F20056;
 }
-
-
 /*-------------------Main styling*/
 .container-fluid {
   padding-right: 0;
@@ -163,7 +159,11 @@
   background: linear-gradient(127deg, rgba(255, 186, 210, 1) 0%, rgba(200, 207, 180, 0.5186449579831933) 30%), url("images/treatments-intro.jpg") no-repeat center;
   background-size: cover;
 }
-
+.treatments-intro-large-image {
+  height: 25vh;
+  background: linear-gradient(127deg, rgba(255, 186, 210, 1) 0%, rgba(200, 207, 180, 0.5186449579831933) 30%), url("images/treatments-intro.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
 .treatments-intro-row {
   background-color: #C8CFB4;
 }
@@ -188,7 +188,11 @@
   background: linear-gradient(127deg, rgba(255, 186, 210, 1) 0%, rgba(200, 207, 180, 0.5186449579831933) 30%), url("images/appointments-intro.jpg") no-repeat center;
   background-size: cover;
 }
-
+.appointments-intro-large-image {
+  height: 25vh;
+  background: linear-gradient(127deg, rgba(255, 186, 210, 1) 0%, rgba(200, 207, 180, 0.5186449579831933) 30%), url("images/appointments-intro.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
 .appointments-column {
   background-color: #C8CFB4;
   padding: 30px;
@@ -199,38 +203,45 @@
   background: linear-gradient(127deg, rgba(255, 186, 210, 1) 0%, rgba(200, 207, 180, 0.5186449579831933) 30%), url("images/gallery-intro.jpg") no-repeat scroll 50% 30%;
   background-size: cover;
 }
+.gallery-intro-large-image {
+  height: 25vh;
+  background: linear-gradient(127deg, rgba(255, 186, 210, 1) 0%, rgba(200, 207, 180, 0.5186449579831933) 30%), url("images/gallery-intro.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
 .gallery-img img {
   width: 100%;
 }
 .gallery-row {
   background-color: #C8CFB4;
-	padding-top: 15px;
+  padding-top: 15px;
 }
-
 /*Credit to Anna Greaves, as I was inspired by her gallery, she added the following code to the site: Anna Greaves github: https://github.com/AJGreaves*/
 /*original code credit: https://codepen.io/sdthornton/pen/wBZdXq */
-.gallery-thumbnail{ 
-  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-          box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  -webkit-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-  -o-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+.gallery-thumbnail {
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -webkit-transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+  -o-transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
   border-radius: 5px; /*this code added by me*/
 }
-
 /*Credit to Anna Greaves, as I was inspired by her gallery, she added the following code to the site: Anna Greaves github: https://github.com/AJGreaves*/
 /* creates pleasing illusion of hovered image being raised up from the screen */
 /* original code credit: https://codepen.io/sdthornton/pen/wBZdXq */
-.gallery-thumbnail:hover { 
-/*width and height of hover shadow code from Anna Greaves*/
-  -webkit-box-shadow: 0 3px 9px rgba(0,0,0,0.25), 0 3px 6px rgba(0,0,0,0.22);
-          box-shadow: 0 3px 9px rgba(0,0,0,0.25), 0 3px 6px rgba(0,0,0,0.22); 
+.gallery-thumbnail:hover {
+  /*width and height of hover shadow code from Anna Greaves*/
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.25), 0 3px 6px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.25), 0 3px 6px rgba(0, 0, 0, 0.22);
 }
-
 /*-------------------About Us Styling*/
 .about-intro-image {
   height: 25vh;
   background: linear-gradient(127deg, rgba(255, 186, 210, 1) 0%, rgba(200, 207, 180, 0.5186449579831933) 30%), url("images/aboutus-intro.jpg") no-repeat center;
+  background-size: cover;
+}
+.about-intro-large-image {
+  height: 25vh;
+  background: linear-gradient(127deg, rgba(255, 186, 210, 1) 0%, rgba(200, 207, 180, 0.5186449579831933) 30%), url("images/aboutus-intro.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 .about-row {
@@ -240,7 +251,7 @@
 .footer-row {
   background-color: #FFBAD2;
   box-shadow: 0px -5px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
-	padding-top: 15px;
+  padding-top: 15px;
 }
 /*-------------------Media Queries*/
 /*-------phones and tablets*/
@@ -249,24 +260,13 @@
     max-width: 50%;
   }
 }
-
 /*-------desktops and XL screens*/
-@media screen and (min-width: 993px) { 
-	.gallery-img img {
-  max-width: 300px;
-		height: auto;
+@media screen and (min-width: 993px) {
+  .gallery-img img {
+    max-width: 300px;
+    height: auto;
+  }
+  .h4-treatments {
+    padding-top: 10vh;
+  }
 }
-	.about-intro-image {
-		  background: linear-gradient(127deg, rgba(255, 186, 210, 1) 0%, rgba(200, 207, 180, 0.5186449579831933) 30%), url("images/aboutus-intro.jpg") no-repeat center center fixed;
-	}
-	.gallery-intro-image {
-		  background: linear-gradient(127deg, rgba(255, 186, 210, 1) 0%, rgba(200, 207, 180, 0.5186449579831933) 30%), url("images/gallery-intro.jpg") no-repeat center center fixed;
-		object-fit: fill;
-	}
-	.appointments-intro-image {
-		  background: linear-gradient(127deg, rgba(255, 186, 210, 1) 0%, rgba(200, 207, 180, 0.5186449579831933) 30%), url("images/appointments-intro.jpg") no-repeat center center fixed;
-	}
-	.treatments-intro-image {
-		  background: linear-gradient(127deg, rgba(255, 186, 210, 1) 0%, rgba(200, 207, 180, 0.5186449579831933) 30%), url("images/treatments-intro.jpg") no-repeat center center fixed;
-	}
-} 
