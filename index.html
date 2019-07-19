@@ -17,7 +17,7 @@
 <title>Sarina Nails & Beauty</title>
 </head>
 
-<body>
+<body>	
 <div class="container-fluid"> 
   <!--Start of Header Content-->
   <header> 
@@ -32,11 +32,11 @@
       <div class="collapse navbar-collapse" id="CollapseMenu"> 
         <!-- Links -->
         <ul id="navbarlinks" class="navbar-nav navbar-text">
-          <li class="nav-item active"> <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#home">Home </a> </li>
           <li class="nav-item"> <a class="nav-link" href="#treatments">Treatments</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#">Book Appointment</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#">Gallery</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#">About us</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#appointments">Book Appointment</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#gallerywork">Gallery</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#about">About us</a> </li>
         </ul>
         <!-- Links --> 
       </div>
@@ -49,7 +49,7 @@
   <!--Start of Body Content-->
   <section> 
     <!--Start of Home Section Content-->
-    <div class="row align-items-center text-center home-section-bg">
+    <div class="row align-items-center text-center home-section-bg" id="home">
       <div class="col-12"> <img src="assets/images/logo_notext.png" class="home-section-logo" alt="Sarina Nails & Beauty Logo">
         <h3 class="h3-home">WELCOME TO SARINA NAILS & BEAUTY</h3>
         <p class="p-home">Beauty is confidence directly to your face and nail</p>
@@ -58,7 +58,7 @@
     <!--End of Home Section Content--> 
     
     <!--Start of Treatments Section Content--> 
-    <div class="row treatments-intro-image">
+    <div class="row treatments-intro-image" id="treatments">
       <div class="col-sm-12 text-center my-auto">
         <h4 class="h4-treatments"> treatments </h4>
       </div>
@@ -369,7 +369,7 @@
     <!--End of Treatments Section Content--> 
     
     <!--Start of Appointments Section Content--> 
-    <div class="row appointments-intro-image">
+    <div class="row appointments-intro-image" id="appointments">
       <div class="col-sm-12 text-center my-auto">
         <h4 class="h4-appointments"> Book an appointment </h4>
       </div>
@@ -416,7 +416,7 @@
     <!--End of Appointments Section Content--> 
     
     <!--Start of Gallery Section Content--> 
-    <div class="row gallery-intro-image">
+    <div class="row gallery-intro-image" id="gallerywork">
       <div class="col-sm-12 text-center my-auto">
         <h4 class="h4-treatments">Gallery of my Work</h4>
       </div>
@@ -447,7 +447,7 @@
     <!--End of Gallery Section Content--> 
     
     <!--Start of About Us Content-->
-    <div class="row about-intro-image">
+    <div class="row about-intro-image" id="about">
       <div class="col-sm-12 text-center my-auto">
         <h4 class="h4-treatments"> About myself</h4>
       </div>
@@ -498,5 +498,34 @@ $('.navbar-nav>li>a').on('click', function(){
     $('.navbar-collapse').collapse('hide');
 });
 </script>
+	<!-- Smooth scroll script --> 
+	<!--Original code credit: https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section1 --> 
+	<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 2500, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+	
 </body>
 </html>
