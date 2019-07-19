@@ -159,11 +159,6 @@
   background: linear-gradient(127deg, rgba(255, 186, 210, 1) 0%, rgba(200, 207, 180, 0.5186449579831933) 30%), url("images/treatments-intro.jpg") no-repeat center;
   background-size: cover;
 }
-.treatments-intro-large-image {
-  height: 25vh;
-  background: linear-gradient(127deg, rgba(255, 186, 210, 1) 0%, rgba(200, 207, 180, 0.5186449579831933) 30%), url("images/treatments-intro.jpg") no-repeat center center fixed;
-  background-size: cover;
-}
 .treatments-intro-row {
   background-color: #C8CFB4;
 }
@@ -188,11 +183,6 @@
   background: linear-gradient(127deg, rgba(255, 186, 210, 1) 0%, rgba(200, 207, 180, 0.5186449579831933) 30%), url("images/appointments-intro.jpg") no-repeat center;
   background-size: cover;
 }
-.appointments-intro-large-image {
-  height: 25vh;
-  background: linear-gradient(127deg, rgba(255, 186, 210, 1) 0%, rgba(200, 207, 180, 0.5186449579831933) 30%), url("images/appointments-intro.jpg") no-repeat center center fixed;
-  background-size: cover;
-}
 .appointments-column {
   background-color: #C8CFB4;
   padding: 30px;
@@ -201,11 +191,6 @@
 .gallery-intro-image {
   height: 25vh;
   background: linear-gradient(127deg, rgba(255, 186, 210, 1) 0%, rgba(200, 207, 180, 0.5186449579831933) 30%), url("images/gallery-intro.jpg") no-repeat scroll 50% 30%;
-  background-size: cover;
-}
-.gallery-intro-large-image {
-  height: 25vh;
-  background: linear-gradient(127deg, rgba(255, 186, 210, 1) 0%, rgba(200, 207, 180, 0.5186449579831933) 30%), url("images/gallery-intro.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 .gallery-img img {
@@ -239,11 +224,6 @@
   background: linear-gradient(127deg, rgba(255, 186, 210, 1) 0%, rgba(200, 207, 180, 0.5186449579831933) 30%), url("images/aboutus-intro.jpg") no-repeat center;
   background-size: cover;
 }
-.about-intro-large-image {
-  height: 25vh;
-  background: linear-gradient(127deg, rgba(255, 186, 210, 1) 0%, rgba(200, 207, 180, 0.5186449579831933) 30%), url("images/aboutus-intro.jpg") no-repeat center center fixed;
-  background-size: cover;
-}
 .about-row {
   background-color: #C8CFB4;
 }
@@ -268,5 +248,21 @@
   }
   .h4-treatments {
     padding-top: 10vh;
+  }
+  .about-intro-image {
+    background: linear-gradient(to bottom, rgba(255, 186, 210, 0.78) 0%, rgba(200, 207, 180, 0.45) 100%), url("images/aboutus-intro.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
+  .gallery-intro-image {
+    background: linear-gradient(to bottom, rgba(255, 186, 210, 0.78) 0%, rgba(200, 207, 180, 0.45) 100%), url("images/gallery-intro.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
+  .appointments-intro-image {
+    background: linear-gradient(to bottom, rgba(255, 186, 210, 0.78) 0%, rgba(200, 207, 180, 0.45) 100%), url("images/appointments-intro.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
+  .treatments-intro-image {
+    background: linear-gradient(to bottom, rgba(255, 186, 210, 0.78) 0%, rgba(200, 207, 180, 0.45) 100%), url("images/treatments-intro.jpg") no-repeat center center fixed;
+    background-size: cover;
   }
 }
