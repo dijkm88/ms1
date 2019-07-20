@@ -26,7 +26,7 @@ By providing a website, where the main topic is, __less is more__, I make a resp
 
 Due to the fact that I know the owner of this business, we work closely together to achieve the best possible outcome, towards both user and site owner. 
 
-By delivering a clean and mothern site, for this, I have used a one-page approach. Where customers just scroll from top to bottom.
+By delivering a clean and modern site, for this, I have used a one-page approach. Where customers just scroll from top to bottom.
 
 We will use a tree structure using the burger icon on the top right of the page, the menu will collapse to a fullscreen menu, with large modern font. (coming at a later stage: the burger icon will automatically close if expanded once a link has been clicked / choosen).
 
@@ -42,6 +42,13 @@ Main colour #FFBAD2 is choosen as pink. As pink represents femininity, it's also
 When you're on the full desktop site, and hover over a link, the link will change colour to confirm they are choosing / going to choose that option.
 
 ### User Stories ###
+* As a potential customer, I want to have an easy overview of what type of treatments I could choose from, so I can make a decission about making an appointment.  
+* As a potential customer and visitor to the site, I want to view the gallery, so I can see what type of treatments have been done, and I could decide if I want to make an appointment for a session.  
+* As a new visitor to the site, I want the site to be easy to navigate through, so I can find what I was looking for in a quick way.  
+* As a potential customer, I want to read previous reviews, so I can see what others have to say to make my decission for booking in an appointment easier.  
+* As a potential customer, I would like to read about the store/owner, so I get a better understanding if this is the right fit for myself.  
+* As a new visitor and potential on the site, I want the bookings experience, to be easy and understandable.  
+* As a new customer, I want to understand the opening hours, and where to go to in case of a booking.  
 
 
 ## Features ##
