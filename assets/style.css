@@ -6,7 +6,6 @@
   scroll-behavior: smooth;
 }
 .site-button {
-  text-align: right;
   color: #FFBAD2;
   background-color: #F20056;
 }
@@ -28,6 +27,7 @@
   font-weight: 900;
   color: #F20056;
   text-shadow: 1px 1px 0px rgb(255, 186, 210);
+  text-transform: uppercase;
 }
 .p-home {
   font-family: 'Encode Sans Condensed', sans-serif;
@@ -39,7 +39,7 @@
   font-family: 'Encode Sans Condensed', sans-serif;
   font-weight: 400;
 }
-.h4-treatments {
+.h4-treatments, .h4-about {
   font-family: 'Encode Sans Condensed', sans-serif;
   font-weight: 600;
   font-size: 40px;
@@ -79,6 +79,22 @@
 .fab {
   font-size: 29px;
 }
+
+.about-card-cascade {
+	font-family: 'Encode Sans Condensed', sans-serif;
+    font-weight: 300;
+	color: #FFBAD2;
+	font-size: 1rem;
+	text-transform: uppercase;
+}
+
+.about-card {
+	font-family: 'Encode Sans Condensed', sans-serif;
+	color: #FFBAD2;
+	font-size: 1rem;
+	color: #f20056;
+}
+
 /*-------------------Nav Styling*/
 .menu-button {
   color: #F20056;
@@ -139,7 +155,7 @@
 .home-section-bg {
   height: 100vh;
   background: #FFBAD2;
-  background: linear-gradient(to bottom, rgba(255, 186, 210, 0.78) 0%, rgba(200, 207, 180, 0.45) 100%), url("images/background1.jpg") no-repeat center center fixed;
+  background: linear-gradient(to bottom, rgba(255, 186, 210, 0.67) 0%, rgba(200, 207, 180, 0.66) 100%), url(images/background1.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 .home-section-logo {
@@ -225,7 +241,46 @@
 }
 .about-row {
   background-color: #C8CFB4;
+  padding-top: 15px;
 }
+.about-avatar {
+  max-width: 50%;
+}
+.modal-cont {
+  background-color: #C8CFB4;
+}
+.map-container-5 {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-container-5 iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.about-card-cascade {
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: -0.75rem;
+  border-radius: .25rem;
+  padding: 1.6rem 1rem;
+  text-align: center;
+	background-color: #F20056;
+}
+
+.card-hours-address {
+	text-align: left;
+	
+}
+
+.about-card {
+	background-color: #FFBAD2;
+}
+
 /*-------------------Footer Styling*/
 .footer-row {
   background-color: #FFBAD2;
