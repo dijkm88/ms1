@@ -53,21 +53,18 @@
   color: #F20056;
   margin: 10px;
 }
-.h5-treatments-card {
-  font-family: 'Encode Sans Condensed', sans-serif;
-  font-weight: 800;
-  color: #F20056;
+
+.treatment {
+    margin: 0 0 50px 0;
+    padding: 0;
+    list-style: none;
+	text-align: left;
 }
-.h4-treatments-card {
-  font-family: 'Encode Sans Condensed', sans-serif;
-  font-weight: 600;
-  color: #F20056;
+.t-price {
+    position: absolute;
+    right: 13px;
 }
-.p-treatments-card {
-  font-family: 'Encode Sans Condensed', sans-serif;
-  font-weight: 300;
-  color: #F20056;
-}
+
 .h4-appointments {
   font-family: 'Encode Sans Condensed', sans-serif;
   font-weight: 600;
@@ -249,6 +246,11 @@
 .modal-cont {
   background-color: #C8CFB4;
 }
+
+.modal-header, .modal-footer {
+	border: 0;
+}
+
 .map-container-5 {
   overflow: hidden;
   padding-bottom: 56.25%;
