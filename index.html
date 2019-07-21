@@ -17,7 +17,7 @@
 <title>Sarina Nails & Beauty</title>
 </head>
 
-<body>	
+<body>
 <div class="container-fluid"> 
   <!--Start of Header Content-->
   <header> 
@@ -48,16 +48,115 @@
   
   <!--Start of Body Content-->
   <section> 
+    
     <!--Start of Home Section Content-->
     <div class="row align-items-center text-center home-section-bg" id="home">
       <div class="col-12"> <img src="assets/images/logo_notext.png" class="home-section-logo" alt="Sarina Nails & Beauty Logo">
         <h3 class="h3-home">WELCOME TO SARINA NAILS & BEAUTY</h3>
         <p class="p-home">Beauty is confidence directly to your face and nail</p>
-        <a href="#treatments" class="btn site-button waves-effect waves-light">Learn About our Treatments</a> </div>
+        <a href="#treatments" class="btn site-button waves-effect waves-light">Book Now</a> </div>
     </div>
     <!--End of Home Section Content--> 
-    
-    <!--Start of Treatments Section Content--> 
+    <!--Start of About Us Content-->
+    <div class="row about-intro-image" id="about">
+      <div class="col-sm-12 text-center my-auto">
+        <h4 class="h4-about"> about</h4>
+      </div>
+    </div>
+    <div class="row about-row">
+      <div class="col-sm-12 text-center my-auto"> <img src="assets/images/avatar.jpg" class="img-fluid z-depth-1 rounded-circle about-avatar" alt="Nasima Dhoeman">
+        <p class="p-about text-justify">My name is Nasima Dhoeman, and two years ago, I started with my certification for becoming a professional manicurist.<p>
+          <p class="p-about text-justify">Today I can say I am a fully qualified, trained and certified Nail Artist. Besides this, I am also offering make-up and hair styling for every occasion. Please have a look at the various certifications that I've received, and if you'd like to know more, please look at the extensive list of treatments that I offer, and in case you have any questions, please do contact me for more information.</p>
+      </div>
+      <div class="col-sm-12 text-center my-auto">
+        <button type="button" class="btn site-button waves-effect waves-light" data-toggle="modal" data-target="#exampleModalCenter"> My Certifications</button>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content modal-cont">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+              </div>
+              <div class="modal-body">
+                <div class="row align-items-center text-center">
+                  <figure class="col-sm-6 col-lg-3 gallery-img"> <a data-fancybox="certifications" data-caption="Certification received 14/10/'17 for Acrylic Nail Treatments" href="assets/images/certification/acryl_cert.jpg"> <img class="gallery-thumbnail" src="assets/images/certification/acryl_cert_thumb.jpg" alt="Certification received 14/10/'17 for Acrylic Nail Treatments"> </a> </figure>
+                  <figure class="col-sm-6 col-lg-3 gallery-img"> <a data-fancybox="certifications" data-caption="Certification received for Gel Nails Treatments" href="assets/images/certification/gelnails_cert.jpg"> <img class="gallery-thumbnail" src="assets/images/certification/gelnails_cert_thumb.jpg" alt="Certification received for Gel Nails Treatments"> </a> </figure>
+                  <figure class="col-sm-6 col-lg-3 gallery-img"> <a data-fancybox="certifications" data-caption="Certification received 22/11/'18 for Manicure Treatments" href="assets/images/certification/manicure_cert.jpg"> <img class="gallery-thumbnail" src="assets/images/certification/manicure_cert_thumb.jpg" alt="Certification received 22/11/'18 for Manicure Treatments"> </a> </figure>
+                  <figure class="col-sm-6 col-lg-3 gallery-img"> <a data-fancybox="certifications" data-caption="Certification received 19/8/'17 for Nail Art Treatments'" href="assets/images/certification/nail_art_cert.jpg"> <img class="gallery-thumbnail" src="assets/images/certification/nail_art_cert_thumb.jpg" alt="Certification received 19/8/'17 for Nail Art Treatments"> </a> </figure>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn site-button waves-effect waves-light" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End of Modal --> 
+      </div>
+      <div class="col-sm-12 text-center mb-3">
+        <p class="p-about text-justify"> I am now taking bookings for appointments, and besides working from my address, I can also meet on location.</p>
+      </div>
+      <div class="col-sm-12 mb-3"> 
+        
+        <!--Grid row-->
+        <div class="row"> 
+          
+          <!--Grid column-->
+          <div class="col-sm-12"> 
+            
+            <!--Card-->
+            <div class="card card-cascade narrower about-card"> 
+              
+              <!--Card image-->
+              <div class="view about-card-cascade">
+                <h5 class="mb-0">Our Address & Opening Hours</h5>
+              </div>
+              <!--/Card image--> 
+              
+              <!--Card content-->
+              <div class="card-body card-body-cascade text-center"> 
+                
+                <!--Google map-->
+                <div id="map-container-google-8" class="z-depth-1-half map-container-5" style="height: 300px">
+                  <iframe src="https://maps.google.com/maps?q=Barcelona&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <dl class="row mt-3">
+                  <dt class="col-sm-6 card-hours-address">Address</dt>
+                  <dd class="col-sm-6"></dd>
+                  <dt class="col-sm-3"></dt>
+                  <dd class="col-sm-9">34 Manor Park</dd>
+                  <dt class="col-sm-3"></dt>
+                  <dd class="col-sm-9">Mallow</dd>
+                  <dt class="col-sm-3"></dt>
+                  <dd class="col-sm-9">Co. Cork</dd>
+				<dt class="col-sm-3 card-hours-address">Phone Number</dt>
+                  <dd class="col-sm-9">021-1234567</dd>
+				  </dl>
+				  <dl class="row mt-3">
+                  <dt class="col-sm-6 card-hours-address">Opening Hours</dt>
+                  <dd class="col-sm-6"></dd>
+                  <dt class="col-sm-3 card-hours-address">Mon - Fri:</dt>
+                  <dd class="col-sm-9">6pm - 10pm</dd>
+                  <dt class="col-sm-3 card-hours-address">Sat - Sun:</dt>
+                  <dd class="col-sm-9">9am - 6pm</dd>
+                </dl>
+              </div>
+              <!--/.Card content--> 
+              
+            </div>
+            <!--/.Card--> 
+            
+          </div>
+          <!--Grid column--> 
+        </div>
+        <!--Grid row--> 
+        
+      </div>
+    </div>
+    <!--End of About Us Content--> 
+    <!--Start of Treatments Section Content-->
     <div class="row treatments-intro-image" id="treatments">
       <div class="col-sm-12 text-center my-auto">
         <h4 class="h4-treatments"> treatments </h4>
@@ -73,11 +172,6 @@
       <!-- Card 1 | gel nails -->
       <div class="col-sm-12 col-md-6 col-lg-3 cards-col">
         <div class="card card-cascade narrower treatments-cards"> 
-          
-          <!-- Card image -->
-          <div class="view view-cascade overlay"> <img  class="card-img-top" src="assets/images/treatments-image.jpg" alt="Treatment 1"> <a>
-            <div class="mask rgba-white-slight"></div>
-            </a> </div>
           
           <!-- Card content -->
           <div class="card-body card-body-cascade"> 
@@ -98,11 +192,6 @@
       <div class="col-sm-12 col-md-6 col-lg-3 cards-col">
         <div class="card card-cascade narrower treatments-cards"> 
           
-          <!-- Card image -->
-          <div class="view view-cascade overlay"> <img  class="card-img-top" src="assets/images/treatments-image.jpg" alt="Treatment 2"> <a>
-            <div class="mask rgba-white-slight"></div>
-            </a> </div>
-          
           <!-- Card content -->
           <div class="card-body card-body-cascade"> 
             
@@ -117,14 +206,9 @@
         </div>
       </div>
       <!-- End of Card 2 | Gel Fil-in --> 
-		      <!-- Card 3 | Acrylic Gel Nails -->
+      <!-- Card 3 | Acrylic Gel Nails -->
       <div class="col-sm-12 col-md-6 col-lg-3 cards-col">
         <div class="card card-cascade narrower treatments-cards"> 
-          
-          <!-- Card image -->
-          <div class="view view-cascade overlay"> <img  class="card-img-top" src="assets/images/treatments-image.jpg" alt="Treatment 1"> <a>
-            <div class="mask rgba-white-slight"></div>
-            </a> </div>
           
           <!-- Card content -->
           <div class="card-body card-body-cascade"> 
@@ -143,11 +227,6 @@
       <!-- Card 4 | Arcylic Gel Fill-In -->
       <div class="col-sm-12 col-md-6 col-lg-3 cards-col">
         <div class="card card-cascade narrower treatments-cards"> 
-          
-          <!-- Card image -->
-          <div class="view view-cascade overlay"> <img  class="card-img-top" src="assets/images/treatments-image.jpg" alt="Treatment 2"> <a>
-            <div class="mask rgba-white-slight"></div>
-            </a> </div>
           
           <!-- Card content -->
           <div class="card-body card-body-cascade"> 
@@ -169,11 +248,6 @@
       <div class="col-sm-12 col-md-6 col-lg-3 cards-col">
         <div class="card card-cascade narrower treatments-cards"> 
           
-          <!-- Card image -->
-          <div class="view view-cascade overlay"> <img  class="card-img-top" src="assets/images/treatments-image2.jpg" alt="Card image cap"> <a>
-            <div class="mask rgba-white-slight"></div>
-            </a> </div>
-          
           <!-- Card content -->
           <div class="card-body card-body-cascade"> 
             
@@ -192,11 +266,6 @@
       <div class="col-sm-12 col-md-6 col-lg-3 cards-col">
         <div class="card card-cascade narrower treatments-cards"> 
           
-          <!-- Card image -->
-          <div class="view view-cascade overlay"> <img  class="card-img-top" src="assets/images/treatments-image2.jpg" alt="Card image cap"> <a>
-            <div class="mask rgba-white-slight"></div>
-            </a> </div>
-          
           <!-- Card content -->
           <div class="card-body card-body-cascade"> 
             
@@ -211,14 +280,9 @@
         </div>
       </div>
       <!-- End of Card 6 | Acrylic Fill-In --> 
-		      <!-- Card 7 | Gel Colour -->
+      <!-- Card 7 | Gel Colour -->
       <div class="col-sm-12 col-md-6 col-lg-3 cards-col">
         <div class="card card-cascade narrower treatments-cards"> 
-          
-          <!-- Card image -->
-          <div class="view view-cascade overlay"> <img  class="card-img-top" src="assets/images/treatments-image2.jpg" alt="Card image cap"> <a>
-            <div class="mask rgba-white-slight"></div>
-            </a> </div>
           
           <!-- Card content -->
           <div class="card-body card-body-cascade"> 
@@ -238,11 +302,6 @@
       <div class="col-sm-12 col-md-6 col-lg-3 cards-col">
         <div class="card card-cascade narrower treatments-cards"> 
           
-          <!-- Card image -->
-          <div class="view view-cascade overlay"> <img  class="card-img-top" src="assets/images/treatments-image2.jpg" alt="Card image cap"> <a>
-            <div class="mask rgba-white-slight"></div>
-            </a> </div>
-          
           <!-- Card content -->
           <div class="card-body card-body-cascade"> 
             
@@ -258,15 +317,10 @@
       </div>
       <!-- End of Card 8 | Nail Colouring (incl. short manicure)  --> 
     </div>
-	    <div class="row cardsrow"> 
+    <div class="row cardsrow"> 
       <!-- Card 9  | Mini Manicure -->
       <div class="col-sm-12 col-md-6 col-lg-3 cards-col">
         <div class="card card-cascade narrower treatments-cards"> 
-          
-          <!-- Card image -->
-          <div class="view view-cascade overlay"> <img  class="card-img-top" src="assets/images/treatments-image2.jpg" alt="Card image cap"> <a>
-            <div class="mask rgba-white-slight"></div>
-            </a> </div>
           
           <!-- Card content -->
           <div class="card-body card-body-cascade"> 
@@ -286,11 +340,6 @@
       <div class="col-sm-12 col-md-6 col-lg-3 cards-col">
         <div class="card card-cascade narrower treatments-cards"> 
           
-          <!-- Card image -->
-          <div class="view view-cascade overlay"> <img  class="card-img-top" src="assets/images/treatments-image2.jpg" alt="Card image cap"> <a>
-            <div class="mask rgba-white-slight"></div>
-            </a> </div>
-          
           <!-- Card content -->
           <div class="card-body card-body-cascade"> 
             
@@ -306,14 +355,9 @@
         </div>
       </div>
       <!-- End of Card 10 | Basic Manicure --> 
-		      <!-- Card 11 | Manicure + Paraffin -->
+      <!-- Card 11 | Manicure + Paraffin -->
       <div class="col-sm-12 col-md-6 col-lg-3 cards-col">
         <div class="card card-cascade narrower treatments-cards"> 
-          
-          <!-- Card image -->
-          <div class="view view-cascade overlay"> <img  class="card-img-top" src="assets/images/treatments-image2.jpg" alt="Card image cap"> <a>
-            <div class="mask rgba-white-slight"></div>
-            </a> </div>
           
           <!-- Card content -->
           <div class="card-body card-body-cascade"> 
@@ -333,11 +377,6 @@
       <div class="col-sm-12 col-md-6 col-lg-3 cards-col">
         <div class="card card-cascade narrower treatments-cards"> 
           
-          <!-- Card image -->
-          <div class="view view-cascade overlay"> <img  class="card-img-top" src="assets/images/treatments-image2.jpg" alt="Card image cap"> <a>
-            <div class="mask rgba-white-slight"></div>
-            </a> </div>
-          
           <!-- Card content -->
           <div class="card-body card-body-cascade"> 
             
@@ -355,16 +394,16 @@
     </div>
     <!--End of Treatments Section Content--> 
     
-    <!--Start of Appointments Section Content--> 
+    <!--Start of Appointments Section Content-->
     <div class="row appointments-intro-image" id="appointments">
       <div class="col-sm-12 text-center my-auto">
         <h4 class="h4-appointments"> Book an appointment </h4>
       </div>
     </div>
     <div class="row">
-		<div class="col-sm-12 col-md-6 appointments-column">
-		<p class="p-treatments">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit ab, sed quae suscipit iste quidem magnam fugiat aperiam hic, repudiandae possimus non neque cumque optio adipisci qui assumenda numquam? Consectetur!</p>
-		</div>
+      <div class="col-sm-12 col-md-6 appointments-column">
+        <p class="p-treatments">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit ab, sed quae suscipit iste quidem magnam fugiat aperiam hic, repudiandae possimus non neque cumque optio adipisci qui assumenda numquam? Consectetur!</p>
+      </div>
       <div class="col-sm-12 col-md-6 appointments-column"> 
         <!-- Default form register -->
         <form class="text-center border border-light p-5" action="#!">
@@ -402,13 +441,13 @@
     </div>
     <!--End of Appointments Section Content--> 
     
-    <!--Start of Gallery Section Content--> 
+    <!--Start of Gallery Section Content-->
     <div class="row gallery-intro-image" id="gallerywork">
       <div class="col-sm-12 text-center my-auto">
         <h4 class="h4-treatments">Gallery of my Work</h4>
       </div>
     </div>
-	  <!--Original Code credit to Anna Graeves, Code Institute student 2019, Github:  https://github.com/AJGreaves-->
+    <!--Original Code credit to Anna Graeves, Code Institute student 2019, Github:  https://github.com/AJGreaves-->
     <div class="row gallery-row justify-content-center">
       <div class="col-sm-12 col-md-10">
         <div class="row align-items-center text-center">
@@ -417,13 +456,13 @@
           <figure class="col-sm-6 col-lg-3 gallery-img"> <a data-fancybox="gallery" data-caption="Some caption for image in gallery" href="assets/images/gallery/gallery1.jpg"> <img class="gallery-thumbnail" src="assets/images/gallery/gallery1-thumb.jpg" alt="ALT caption"> </a> </figure>
           <figure class="col-sm-6 col-lg-3 gallery-img"> <a data-fancybox="gallery" data-caption="Some caption for image in gallery" href="assets/images/gallery/gallery1.jpg"> <img class="gallery-thumbnail" src="assets/images/gallery/gallery1-thumb.jpg" alt="ALT caption"> </a> </figure>
         </div>
-                <div class="row align-items-center text-center">
+        <div class="row align-items-center text-center">
           <figure class="col-sm-6 col-lg-3 gallery-img"> <a data-fancybox="gallery" data-caption="Some caption for image in gallery" href="assets/images/gallery/gallery1.jpg"> <img class="gallery-thumbnail" src="assets/images/gallery/gallery1-thumb.jpg" alt="ALT caption"> </a> </figure>
           <figure class="col-sm-6 col-lg-3 gallery-img"> <a data-fancybox="gallery" data-caption="Some caption for image in gallery" href="assets/images/gallery/gallery2.jpg"> <img class="gallery-thumbnail" src="assets/images/gallery/gallery2-thumb.jpg" alt="ALT caption"> </a> </figure>
           <figure class="col-sm-6 col-lg-3 gallery-img"> <a data-fancybox="gallery" data-caption="Some caption for image in gallery" href="assets/images/gallery/gallery1.jpg"> <img class="gallery-thumbnail" src="assets/images/gallery/gallery1-thumb.jpg" alt="ALT caption"> </a> </figure>
           <figure class="col-sm-6 col-lg-3 gallery-img"> <a data-fancybox="gallery" data-caption="Some caption for image in gallery" href="assets/images/gallery/gallery1.jpg"> <img class="gallery-thumbnail" src="assets/images/gallery/gallery1-thumb.jpg" alt="ALT caption"> </a> </figure>
         </div>
-                <div class="row align-items-center text-center">
+        <div class="row align-items-center text-center">
           <figure class="col-sm-6 col-lg-3 gallery-img"> <a data-fancybox="gallery" data-caption="Some caption for image in gallery" href="assets/images/gallery/gallery1.jpg"> <img class="gallery-thumbnail" src="assets/images/gallery/gallery1-thumb.jpg" alt="ALT caption"> </a> </figure>
           <figure class="col-sm-6 col-lg-3 gallery-img"> <a data-fancybox="gallery" data-caption="Some caption for image in gallery" href="assets/images/gallery/gallery2.jpg"> <img class="gallery-thumbnail" src="assets/images/gallery/gallery2-thumb.jpg" alt="ALT caption"> </a> </figure>
           <figure class="col-sm-6 col-lg-3 gallery-img"> <a data-fancybox="gallery" data-caption="Some caption for image in gallery" href="assets/images/gallery/gallery1.jpg"> <img class="gallery-thumbnail" src="assets/images/gallery/gallery1-thumb.jpg" alt="ALT caption"> </a> </figure>
@@ -432,20 +471,6 @@
       </div>
     </div>
     <!--End of Gallery Section Content--> 
-    
-    <!--Start of About Us Content-->
-    <div class="row about-intro-image" id="about">
-      <div class="col-sm-12 text-center my-auto">
-        <h4 class="h4-treatments"> About myself</h4>
-      </div>
-    </div>
-    <div class="row about-row">
-      <div class="col-sm-12 text-center my-auto">
-        <p class="p-about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto at odio vero accusamus mollitia commodi possimus nostrum recusandae neque assumenda delectus, hic soluta cum aliquid, quasi minus! Architecto, recusandae, vel. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates non doloremque, delectus eos. Ab, doloribus voluptates dolorum unde quam eligendi provident magnam repellendus vero, asperiores, aperiam dolores, consequatur alias aut.</p>
-        <p class="p-about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto at odio vero accusamus mollitia commodi possimus nostrum recusandae neque assumenda delectus, hic soluta cum aliquid, quasi minus! Architecto, recusandae, vel. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates non doloremque, delectus eos. Ab, doloribus voluptates dolorum unde quam eligendi provident magnam repellendus vero, asperiores, aperiam dolores, consequatur alias aut.</p>
-      </div>
-    </div>
-    <!--End of About Us Content--> 
   </section>
   
   <!--Start of Footer Content-->
@@ -484,10 +509,10 @@
 $('.navbar-nav>li>a').on('click', function(){
     $('.navbar-collapse').collapse('hide');
 });
-</script>
-	<!-- Smooth scroll script --> 
-	<!--Original code credit: https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section1 --> 
-	<script>
+</script> 
+<!-- Smooth scroll script --> 
+<!--Original code credit: https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section1 --> 
+<script>
 $(document).ready(function(){
   // Add smooth scrolling to all links
   $("a").on('click', function(event) {
@@ -513,6 +538,5 @@ $(document).ready(function(){
   });
 });
 </script>
-	
 </body>
 </html>
