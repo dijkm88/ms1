@@ -203,6 +203,10 @@
 .gallery-img img {
   width: 100%;
 }
+.gallery-img {
+		padding-left: 8px;
+	padding-right: 8px;
+}
 .gallery-row {
   background-color: #C8CFB4;
   padding-top: 15px;
