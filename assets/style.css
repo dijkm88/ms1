@@ -229,6 +229,10 @@
   -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.25), 0 3px 6px rgba(0, 0, 0, 0.22);
   box-shadow: 0 3px 9px rgba(0, 0, 0, 0.25), 0 3px 6px rgba(0, 0, 0, 0.22);
 }
+
+figure {
+    margin: 0 0 13px;
+}
 /*-------------------About Us Styling*/
 .about-intro-image {
   height: 25vh;
