@@ -53,18 +53,16 @@
   color: #F20056;
   margin: 10px;
 }
-
 .treatment {
-    margin: 0 0 50px 0;
-    padding: 0;
-    list-style: none;
-	text-align: left;
+  margin: 0 0 50px 0;
+  padding: 0;
+  list-style: none;
+  text-align: left;
 }
 .t-price {
-    position: absolute;
-    right: 13px;
+  position: absolute;
+  right: 13px;
 }
-
 .h4-appointments {
   font-family: 'Encode Sans Condensed', sans-serif;
   font-weight: 600;
@@ -76,22 +74,20 @@
 .fab {
   font-size: 29px;
 }
-
 .about-card-cascade {
-	font-family: 'Encode Sans Condensed', sans-serif;
-    font-weight: 300;
-	color: #FFBAD2;
-	font-size: 1rem;
-	text-transform: uppercase;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-weight: 300;
+  color: #FFBAD2;
+  font-size: 1rem;
+  text-transform: uppercase;
 }
-
 .about-card {
-	font-family: 'Encode Sans Condensed', sans-serif;
-	color: #FFBAD2;
-	font-size: 1rem;
-	color: #f20056;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  color: #FFBAD2;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #f20056;
 }
-
 /*-------------------Nav Styling*/
 .menu-button {
   color: #F20056;
@@ -246,11 +242,9 @@
 .modal-cont {
   background-color: #C8CFB4;
 }
-
 .modal-header, .modal-footer {
-	border: 0;
+  border: 0;
 }
-
 .map-container-5 {
   overflow: hidden;
   padding-bottom: 56.25%;
@@ -271,18 +265,14 @@
   border-radius: .25rem;
   padding: 1.6rem 1rem;
   text-align: center;
-	background-color: #F20056;
+  background-color: #F20056;
 }
-
 .card-hours-address {
-	text-align: left;
-	
+  text-align: left;
 }
-
 .about-card {
-	background-color: #FFBAD2;
+  background-color: #FFBAD2;
 }
-
 /*-------------------Footer Styling*/
 .footer-row {
   background-color: #FFBAD2;
