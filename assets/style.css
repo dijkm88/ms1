@@ -194,6 +194,11 @@
 .appointments-column {
   background-color: #C8CFB4;
 }
+
+.appointments-row {
+	background-color: #C8CFB4;
+    height: 75vh;
+}
 /*-------------------Gallery Styling*/
 .gallery-intro-image {
   height: 25vh;
