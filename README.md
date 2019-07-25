@@ -58,11 +58,11 @@ When you're on the full desktop site, and hover over a link, the link will chang
 
 ## Technology used ##
 - - - - 
-The project uses ###Auto Prefixer### to make sure code is aligned on all different browsers -  [Auto Prefixer](https://autoprefixer.github.io/ "Autoprefixer CSS online")  
-The project uses ###Fancybox### for both the gallery section and the certification section -  [Fancybox](http://fancyapps.com/fancybox/3/ "Fancybox 3")  
-The project uses ###Material Design for Bootstrap### MDB Bootstrap 4.8.5 -  [MDB](https://mdbootstrap.com/ "MDB")  
-The project also used ###Font Awesome - release 5.8.2 ### to supply icons -  [Font Awesome](https://fontawesome.com/ "Font Awesome")  
-The project uses ###Google Fonts### to style the website fonts -  [Google Fonts](https://fonts.google.com/ "Google Fonts")  
+The project uses ### Auto Prefixer ### to make sure code is aligned on all different browsers -  [Auto Prefixer](https://autoprefixer.github.io/ "Autoprefixer CSS online")  
+The project uses ### Fancybox ### for both the gallery section and the certification section -  [Fancybox](http://fancyapps.com/fancybox/3/ "Fancybox 3")  
+The project uses ### Material Design for Bootstrap ### MDB Bootstrap 4.8.5 -  [MDB](https://mdbootstrap.com/ "MDB")  
+The project also used ### Font Awesome ### - release 5.8.2 ### to supply icons -  [Font Awesome](https://fontawesome.com/ "Font Awesome")  
+The project uses ### Google Fonts ### to style the website fonts -  [Google Fonts](https://fonts.google.com/ "Google Fonts")  
 
 
 ## Testing ##
