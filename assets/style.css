@@ -148,7 +148,7 @@
 .home-section-bg {
   height: 100vh;
   background: #FFBAD2;
-  background: linear-gradient(to bottom, rgba(255, 186, 210, 0.67) 0%, rgba(200, 207, 180, 0.66) 100%), url(images/background1.jpg) no-repeat center center fixed;
+  background: linear-gradient(to bottom, rgba(255, 186, 210, 0.67) 0%, rgba(200, 207, 180, 0.66) 100%), url(images/background.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 .home-section-logo {
@@ -164,7 +164,7 @@
 /*-------------------Treatments Styling*/
 .treatments-intro-image {
   height: 25vh;
-  background: linear-gradient(127deg, rgba(255, 186, 210, 1) 0%, rgba(200, 207, 180, 0.5186449579831933) 30%), url("images/treatments-intro.jpg") no-repeat center;
+  background: linear-gradient(127deg, rgba(255, 186, 210, 1) 0%, rgba(200, 207, 180, 0.5186449579831933) 30%), url("images/treatmentsintro.jpg") no-repeat center;
   background-size: cover;
 }
 .treatments-intro-row {
@@ -188,7 +188,7 @@
 /*-------------------Appointments styling*/
 .appointments-intro-image {
   height: 25vh;
-  background: linear-gradient(127deg, rgba(255, 186, 210, 1) 0%, rgba(200, 207, 180, 0.5186449579831933) 30%), url("images/appointments-intro.jpg") no-repeat center;
+  background: linear-gradient(127deg, rgba(255, 186, 210, 1) 0%, rgba(200, 207, 180, 0.5186449579831933) 30%), url("images/appointmentsintro.jpg") no-repeat center;
   background-size: cover;
 }
 .appointments-column {
@@ -202,7 +202,7 @@
 /*-------------------Gallery Styling*/
 .gallery-intro-image {
   height: 25vh;
-  background: linear-gradient(127deg, rgba(255, 186, 210, 1) 0%, rgba(200, 207, 180, 0.5186449579831933) 30%), url("images/gallery-intro.jpg") no-repeat scroll 50% 30%;
+  background: linear-gradient(127deg, rgba(255, 186, 210, 1) 0%, rgba(200, 207, 180, 0.5186449579831933) 30%), url("images/galleryintro.jpg") no-repeat scroll 50% 30%;
   background-size: cover;
 }
 .gallery-img img {
@@ -241,7 +241,7 @@ figure {
 /*-------------------About Us Styling*/
 .about-intro-image {
   height: 25vh;
-  background: linear-gradient(127deg, rgba(255, 186, 210, 1) 0%, rgba(200, 207, 180, 0.5186449579831933) 30%), url("images/aboutus-intro.jpg") no-repeat center;
+  background: linear-gradient(127deg, rgba(255, 186, 210, 1) 0%, rgba(200, 207, 180, 0.5186449579831933) 30%), url("images/aboutusintro.jpg") no-repeat center;
   background-size: cover;
 }
 .about-row {
@@ -305,19 +305,19 @@ figure {
     height: auto;
   }
   .about-intro-image {
-    background: linear-gradient(to bottom, rgba(255, 186, 210, 0.78) 0%, rgba(200, 207, 180, 0.45) 100%), url("images/aboutus-intro.jpg") no-repeat center center fixed;
+    background: linear-gradient(to bottom, rgba(255, 186, 210, 0.78) 0%, rgba(200, 207, 180, 0.45) 100%), url("images/aboutusintro.jpg") no-repeat center center fixed;
     background-size: cover;
   }
   .gallery-intro-image {
-    background: linear-gradient(to bottom, rgba(255, 186, 210, 0.78) 0%, rgba(200, 207, 180, 0.45) 100%), url("images/gallery-intro.jpg") no-repeat center center fixed;
+    background: linear-gradient(to bottom, rgba(255, 186, 210, 0.78) 0%, rgba(200, 207, 180, 0.45) 100%), url("images/galleryintro.jpg") no-repeat center center fixed;
     background-size: cover;
   }
   .appointments-intro-image {
-    background: linear-gradient(to bottom, rgba(255, 186, 210, 0.78) 0%, rgba(200, 207, 180, 0.45) 100%), url("images/appointments-intro.jpg") no-repeat center center fixed;
+    background: linear-gradient(to bottom, rgba(255, 186, 210, 0.78) 0%, rgba(200, 207, 180, 0.45) 100%), url("images/appointmentsintro.jpg") no-repeat center center fixed;
     background-size: cover;
   }
   .treatments-intro-image {
-    background: linear-gradient(to bottom, rgba(255, 186, 210, 0.78) 0%, rgba(200, 207, 180, 0.45) 100%), url("images/treatments-intro.jpg") no-repeat center center fixed;
+    background: linear-gradient(to bottom, rgba(255, 186, 210, 0.78) 0%, rgba(200, 207, 180, 0.45) 100%), url("images/treatmentsintro.jpg") no-repeat center center fixed;
     background-size: cover;
   }
 }
