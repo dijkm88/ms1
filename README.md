@@ -39,7 +39,7 @@ We have choosen 3 predominant colours.
 
 Main colour #FFBAD2 is choosen as pink. As pink represents femininity, it's also often used to market products to women and young girls.
 
-When you're on the full desktop site, and hover over a link, the link will change colour to confirm they are choosing / going to choose that option.
+When you're on the full desktop site, and hover over a link, the link will change style to confirm they are choosing / going to choose that option.
 
 ### User Stories ###
 * As a potential customer, I want to have an easy overview of what type of treatments I could choose from, so I can make a decission about making an appointment.  
@@ -58,12 +58,21 @@ When you're on the full desktop site, and hover over a link, the link will chang
 
 ## Technology used ##
 - - - - 
+The project uses ###Auto Prefixer### to make sure code is aligned on all different browsers -  [Auto Prefixer](https://autoprefixer.github.io/ "Autoprefixer CSS online")  
+The project uses ###Fancybox### for both the gallery section and the certification section -  [Fancybox](http://fancyapps.com/fancybox/3/ "Fancybox 3")  
+The project uses ###Material Design for Bootstrap### MDB Bootstrap 4.8.5 -  [MDB](https://mdbootstrap.com/ "MDB")  
+The project also used ###Font Awesome - release 5.8.2 ### to supply icons -  [Font Awesome](https://fontawesome.com/ "Font Awesome")  
+The project uses ###Google Fonts### to style the website fonts -  [Google Fonts](https://fonts.google.com/ "Google Fonts")  
+
 
 ## Testing ##
 - - - - 
 
 ## Deployment ##
 - - - - 
+This project was created by using [Adobe Dreamweaver](https://www.adobe.com/ie/products/dreamweaver.html "Adobe Dreamweaver"), and commited and pushed to GitHub by using [git --everything-is-local](https://git-scm.com/download/win "git --everything-is-local"), which allowed to push to GitHub after installation on local machine.  
+
+
 
 ## Credits ##
 - - - - 
