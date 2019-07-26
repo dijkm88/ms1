@@ -63,7 +63,8 @@ When you're on the full desktop site, and hover over a link, the link will chang
 - - - - 
 The website is created as a one-page design, featuring a navigation bar with a hamburger icon, the Hamburger icon in the navbar, is quite predominantly present, to get the users attention, to be able to move back and forth on the site. It's fully responsive and adapts from mobile to larger screens. In the footer section we have links to the business-owners social media pages. Every section features an introduction heading, and this is done so clear destinction can be made between each section of the page.  
   
-__Home__
+__Home__  
+  
 The home section features a large full screen background, with the business's logo being the predominant image. The background is from one of the owners treatments with a gradient overlay, from pink in the top-left corner to the secundairy colour beige in the right bottom corner, we've made this stand out by incorporating the parallax scrolling effect.  
   
 Furthermore it contains the motto of the owner: __"Beauty is confidence directly to your face and nails"__, and an introductory text: __"Welcome to Sarina nails & Beauty"__. Below this, we have 2 buttons, book now and price list. We have kept the home section of the site fairly clean, to have a maximum impact on the visitor with the logo, motto and buttons, and to get the user and (potential) customer to look at the price list and then a direct booking option for returning customers.
