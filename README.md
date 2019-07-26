@@ -67,9 +67,29 @@ __Home__
   
 The home section features a large full screen background, with the business's logo being the predominant image. The background is from one of the owners treatments with a gradient overlay, from pink in the top-left corner to the secundairy colour beige in the right bottom corner, we've made this stand out by incorporating the parallax scrolling effect.  
   
-Furthermore it contains the motto of the owner: __"Beauty is confidence directly to your face and nails"__, and an introductory text: __"Welcome to Sarina nails & Beauty"__. Below this, we have 2 buttons, book now and price list. We have kept the home section of the site fairly clean, to have a maximum impact on the visitor with the logo, motto and buttons, and to get the user and (potential) customer to look at the price list and then a direct booking option for returning customers.
+Furthermore it contains the motto/slogan of the owner: __"Beauty is confidence directly to your face and nails"__, and an introductory text: __"Welcome to Sarina nails & Beauty"__. Below this, we have 2 buttons, book now and price list. We have kept the home section of the site fairly clean, to have a maximum impact on the visitor with the logo, motto and call to action buttons to get the user and (potential) customer to look at the price list and then a direct booking option for returning customers.
 
 The parallax scrolling is removed with a media query, as, some mobile devices like iOS and Android are not capable of processing this feature.  
+  
+__About__ 
+  
+The 2nd section on the page is the about section. Again, we have a section with a header using the parralax scrolling effect, which is overwritten by a media query for mobile phones and smaller screens, as this does not work correctly on those devices. Choosing the about section as the second section is done to create an interest in the owner and to showcase the certifications that the owner of the salon has received, for mobile view, we have a call to action button which says: "My Certification", and on larger screens, the certifications are listed as direct gallery images below the introduction. This is done so that the visitor and potential new customer is confident that once they make a booking with her salon, that they are in good hands.  
+  
+There is a small paragraph explaining to the visitor why she has choosen this proffesion, the location of where she normally does the treatments and her working hours, also, it's mentioned that if a certain treatment isn't listed, the visitor can discuss this with the owner, besides meeting at her address, she provides the option to meet on location, giving the visitor and potential customer a way to become familiar without leaving their comfort zone.  
+  
+__Treatments__
+The treatment section also starts with a header with a parallax scrolling effect, which is overwritten by a media query for smaller devices / screens. The treatments section has an introductory paragraph, explaining the process of how a (potential) customer can book, that when an booking has been made / requested, the owner will contact the customer to confirm booking: time, date and place. The treatments are currently at the owners home-address, but, that she can also meet on location for a small fee to accomadate for driving.  
+  
+Next part in the treatments section is the list of treatments. This includes a small paragraph explaining each treatment in detail, and current price. As the treatments section is located directly above the booking section, there was no need to include another call to action button to book, as once they scroll further down the list, both on Mobile as Desktop, they will notice the booking section.  
+  
+__Book An Appointment__
+  
+The Book An Appointment section, as all other sections on the page, start with a header for that section, that has an parralax scrolling effect, which is overwritten by a media query to have it set to a static image.  
+  
+Furthermore, there is an introductory paragraph, explaining the process once more, to reassure the (potential) customer of what will happen after it's booked.  
+  
+The contact form, which is currently used for bookings, has a dropdown, where the (potential) customer can select the treatment. This dropdown isn't required, but the remaining fields are mandatory fields. Once the booking is received, the owner will contact the customer, to confirm appointment and discuss the options.
+
   
 ### Features left to implement in future releases ###
 * A toggle button for English / Dutch, as the site-owner has her business in Amsterdam, The Netherlands. This way, the site is able to be attractive to not only native speaking people from the Netherlands, but also English speaking people who live in the Netherlands, or who search for a nail salon online.  
