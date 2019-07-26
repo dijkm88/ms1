@@ -39,7 +39,7 @@ We have choosen 3 predominant colours.
 
 ![picture alt](assets/readme/site-colours.png "The colours used in the site")
 
-Main colour #FFBAD2 is choosen as pink. As pink represents femininity, it's also often used to market products to women and young girls.
+Main colour #FFBAD2 is choosen as pink. As pink represents femininity, it's also often used to market products to women and young girls. Furthermore I've added 2 other accent colours to compliment the pink colour, as seen above.
 
 When you're on the full desktop site, and hover over a link, the link will change style to confirm they are choosing / going to choose that option.
 
@@ -61,8 +61,17 @@ When you're on the full desktop site, and hover over a link, the link will chang
 
 ## Features ##
 - - - - 
+The website is created as a one-page design, featuring a navigation bar with a hamburger icon, the Hamburger icon in the navbar, is quite predominantly present, to get the users attention, to be able to move back and forth on the site. It's fully responsive and adapts from mobile to larger screens. In the footer section we have links to the business-owners social media pages. Every section features an introduction heading, and this is done so clear destinction can be made between each section of the page.  
+  
+__Home__
+The home section features a large full screen background, with the business's logo being the predominant image. The background is from one of the owners treatments with a gradient overlay, from pink in the top-left corner to the secundairy colour beige in the right bottom corner, we've made this stand out by incorporating the parallax scrolling effect.  
+  
+Furthermore it contains the motto of the owner: __"Beauty is confidence directly to your face and nails"__, and an introductory text: __"Welcome to Sarina nails & Beauty"__. Below this, we have 2 buttons, book now and price list. We have kept the home section of the site fairly clean, to have a maximum impact on the visitor with the logo, motto and buttons, and to get the user and (potential) customer to look at the price list and then a direct booking option for returning customers.
 
+The parallax scrolling is removed with a media query, as, some mobile devices like iOS and Android are not capable of processing this feature.  
+  
 ### Features left to implement in future releases ###
+* A toggle button for English / Dutch, as the site-owner has her business in Amsterdam, The Netherlands. This way, the site is able to be attractive to not only native speaking people from the Netherlands, but also English speaking people who live in the Netherlands, or who search for a nail salon online.  
 
 ## Technology used ##
 - - - - 
@@ -85,8 +94,10 @@ This project was created by using [Adobe Dreamweaver](https://www.adobe.com/ie/p
 ## Credits ##
 - - - - 
 
+
 ### Content ###
-The content (text and some of the images) has been created together with my family member, whom the site is meant for.
+* The Dutch texts have been created by the site-owner.
+* The English texts have been translated from the original Dutch texts by Michael Dijk.
 
 ### Media ###
 Some of the images have been taken from pixabay.
