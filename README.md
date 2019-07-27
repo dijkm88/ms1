@@ -77,7 +77,7 @@ The 2nd section on the page is the about section. Again, we have a section with 
   
 There is a small paragraph explaining to the visitor why she has choosen this proffesion, the location of where she normally does the treatments and her working hours, also, it's mentioned that if a certain treatment isn't listed, the visitor can discuss this with the owner, besides meeting at her address, she provides the option to meet on location, giving the visitor and potential customer a way to become familiar without leaving their comfort zone.  
   
-__Treatments__
+__Treatments__  
 The treatment section also starts with a header with a parallax scrolling effect, which is overwritten by a media query for smaller devices / screens. The treatments section has an introductory paragraph, explaining the process of how a (potential) customer can book, that when an booking has been made / requested, the owner will contact the customer to confirm booking: time, date and place. The treatments are currently at the owners home-address, but, that she can also meet on location for a small fee to accomadate for driving.  
   
 Next part in the treatments section is the list of treatments. This includes a small paragraph explaining each treatment in detail, and current price. As the treatments section is located directly above the booking section, there was no need to include another call to action button to book, as once they scroll further down the list, both on Mobile as Desktop, they will notice the booking section.  
@@ -88,20 +88,31 @@ The Book An Appointment section, as all other sections on the page, start with a
   
 Furthermore, there is an introductory paragraph, explaining the process once more, to reassure the (potential) customer of what will happen after it's booked.  
   
-The contact form, which is currently used for bookings, has a dropdown, where the (potential) customer can select the treatment. This dropdown isn't required, but the remaining fields are mandatory fields. Once the booking is received, the owner will contact the customer, to confirm appointment and discuss the options.
+The contact form, which is currently used for bookings, has a dropdown, where the (potential) customer can select the treatment. This dropdown isn't required, but the remaining fields are mandatory fields. Once the booking is received, the owner will contact the customer, to confirm appointment and discuss the options.  
+  
+__Gallery__
+  
+To be filled in
+  
+### Existing Features ###
+  
 
   
 ### Features left to implement in future releases ###
 * A toggle button for English / Dutch, as the site-owner has her business in Amsterdam, The Netherlands. This way, the site is able to be attractive to not only native speaking people from the Netherlands, but also English speaking people who live in the Netherlands, or who search for a nail salon online.  
+* Google Analytics - for understanding what a customer does, where they come from, and, to adjust the customers furture advertisement needs (Youtube, Facebook, Groupon)
+* Insert a GDPR pop-up, to notify the visitor, and, giving them the option to agree on the tracking terms, or to refuse them
 
 ## Technology used ##
 - - - - 
-The project uses __Auto Prefixer__ to make sure code is aligned on all different browsers -  [Auto Prefixer](https://autoprefixer.github.io/ "Autoprefixer CSS online")  
-The project uses __Fancybox__ for both the gallery section and the certification section -  [Fancybox](http://fancyapps.com/fancybox/3/ "Fancybox 3")  
-The project uses __Material Design for Bootstrap__ MDB Bootstrap 4.8.5 -  [MDB](https://mdbootstrap.com/ "MDB")  
-The project also used __Font Awesome__ - release 5.8.2 to supply icons -  [Font Awesome](https://fontawesome.com/ "Font Awesome")  
-The project uses __Google Fonts__ to style the website fonts -  [Google Fonts](https://fonts.google.com/ "Google Fonts")  
-
+* The project has been realized with __HTML__, __CSS__.
+* The project uses __Auto Prefixer__ to make sure code is aligned on all different browsers -  [Auto Prefixer](https://autoprefixer.github.io/ "Autoprefixer CSS online")  
+* The project uses __Fancybox__ for both the gallery section and the certification section -  [Fancybox](http://fancyapps.com/fancybox/3/ "Fancybox 3")  
+* The project uses __Material Design for Bootstrap__ MDB Bootstrap 4.8.5 -  [MDB](https://mdbootstrap.com/ "MDB")  
+* The project also used __Font Awesome__ - release 5.8.2 to supply icons -  [Font Awesome](https://fontawesome.com/ "Font Awesome")  
+* The project uses __Google Fonts__ to style the website fonts -  [Google Fonts](https://fonts.google.com/ "Google Fonts")  
+* The project uses __Popper.js__ for Javascript popups and responsive navigation - [Popper.js](https://popper.js.org/ "Popper.js")  
+* The project uses __Pixabay__ for a license free backgound for the Book An Appointment section header - [Pixabay](https://pixabay.com/ "Pixabay")  
 
 ## Testing ##
 - - - - 
@@ -117,14 +128,15 @@ This project was created by using [Adobe Dreamweaver](https://www.adobe.com/ie/p
 
 
 ### Content ###
-* The Dutch texts have been created by the site-owner.
-* The English texts have been translated from the original Dutch texts by Michael Dijk.
+* The Dutch texts have been created by the site-owner (which will be implemented once we are able to insert a toggle button for the language switch).
+* The English texts have been translated from the original Dutch texts by Michael Dijk.  
 
 ### Media ###
-Some of the images have been taken from pixabay.
-- Nailpolish image for treatments section
-- Agenda image for appointments section
-
+Some media has been taken from pixabay.  
+- Agenda image for appointments section  
+  
+All digital materials has been provided by the site-owner.
+- Gallery images (certification & gallery)
 
 ### Acknowledgements ###
 I received a lot of inspiration for the design from: uxplanet.  
