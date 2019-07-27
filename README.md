@@ -136,8 +136,8 @@ The project has been deployed on Github pages, and I've performed the following 
 5. The correct *source* was then selected, this was set to *Master Branch*.
 6. Once *Master Branch* was selected, the page was then automatically refreshed and under __GitHub Pages__ you will then see: "__*Your site is ready to be published at https://dijkm88.github.io/ms1/.*__"
 7. After the link was then retrieved under the __GitHub Pages__ section, the repository index was then updated to reflect the correct link on top, and to do so, the following steps where performed:
-	i. On the repository index, we selected *Edit* just below the second menu on top right.
-	ii. The correct Repository name was then added with it's corresponding GitHub.io [link](https://dijkm88.github.io/ms1/ "Link to live website")
+	1. On the repository index, we selected *Edit* just below the second menu on top right.
+	2. The correct Repository name was then added with it's corresponding GitHub.io [link](https://dijkm88.github.io/ms1/ "Link to live website")
 
 
 ## Credits ##
