@@ -78,6 +78,7 @@ The 2nd section on the page is the about section. Again, we have a section with 
 There is a small paragraph explaining to the visitor why she has choosen this proffesion, the location of where she normally does the treatments and her working hours, also, it's mentioned that if a certain treatment isn't listed, the visitor can discuss this with the owner, besides meeting at her address, she provides the option to meet on location, giving the visitor and potential customer a way to become familiar without leaving their comfort zone.  
   
 __Treatments__  
+  
 The treatment section also starts with a header with a parallax scrolling effect, which is overwritten by a media query for smaller devices / screens. The treatments section has an introductory paragraph, explaining the process of how a (potential) customer can book, that when an booking has been made / requested, the owner will contact the customer to confirm booking: time, date and place. The treatments are currently at the owners home-address, but, that she can also meet on location for a small fee to accomadate for driving.  
   
 Next part in the treatments section is the list of treatments. This includes a small paragraph explaining each treatment in detail, and current price. As the treatments section is located directly above the booking section, there was no need to include another call to action button to book, as once they scroll further down the list, both on Mobile as Desktop, they will notice the booking section.  
@@ -92,7 +93,13 @@ The contact form, which is currently used for bookings, has a dropdown, where th
   
 __Gallery__
   
-To be filled in
+The gallery section starts as with all other sections with a header, that has an parralax scrolling effect, which is overwritten by a media query to have it set to a static image for smaller size screens.  The header contains heading text, to confirm that the visitor is on the correct section of the page.  
+  
+The gallery itself has 2 column width on smaller screens like mobile phones, and will go to 4 column width for larger screens. Above the images itself, there is a small introduction which mentions that these images are made from work done in the past, and that the visitor can click on the image to see it in full-size.  
+  
+Once the image is clicked, the visitor can use their fingers to nagivate back and forth, as we are utilizing Fancybox. Also, Fancybox incorporates a slide-show feature, which will run and show each image for several seconds before moving onto the next. Each image once opened full-size with fancybox, has a small paragraph explaining what treatment has been done.  
+  
+Once the user nears the end of the gallery section, there are 2 call to action buttons as we had on our home section, one is for going to the booking section, the other one is for going to the treatments section. This is done, as once the images have been seen, the visitor can decide to book an appointment, or go back to the treatments list, and see what treatments will suit the visitor.  
   
 ### Existing Features ###
   
@@ -120,7 +127,17 @@ To be filled in
 ## Deployment ##
 - - - - 
 This project was created by using [Adobe Dreamweaver](https://www.adobe.com/ie/products/dreamweaver.html "Adobe Dreamweaver"), and commited and pushed to GitHub by using [git --everything-is-local](https://git-scm.com/download/win "git --everything-is-local"), which allowed to push to GitHub after installation on local machine.  
-
+  
+The project has been deployed on Github pages, and I've performed the following steps to make it accessible after committing to Github:
+1. Login into [Github](https://www.github.com/ "Github").
+2. From the list of available repositories, the correct repository was choosen: __dijkm88/ms1__.
+3. Once the repository was opened, *Settings* was selected from the 2nd menu on the top.
+4. Once in the *Settings* page, scrolled down to the bottom, where it mentions __GitHub Pages__.
+5. The correct *source* was then selected, this was set to *Master Branch*.
+6. Once *Master Branch* was selected, the page was then automatically refreshed and under __GitHub Pages__ you will then see: "__*Your site is ready to be published at https://dijkm88.github.io/ms1/.*__"
+7. After the link was then retrieved under the __GitHub Pages__ section, the repository index was then updated to reflect the correct link on top, and to do so, the following steps where performed:
+	i. On the repository index, we selected *Edit* just below the second menu on top right.
+	ii. The correct Repository name was then added with it's corresponding GitHub.io [link](https://dijkm88.github.io/ms1/ "Link to live website")
 
 
 ## Credits ##
@@ -137,6 +154,9 @@ Some media has been taken from pixabay.
   
 All digital materials has been provided by the site-owner.
 - Gallery images (certification & gallery)
+
+### Code ###
+* 
 
 ### Acknowledgements ###
 I received a lot of inspiration for the design from: uxplanet.  
