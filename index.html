@@ -101,7 +101,7 @@
         </div>
         <!-- End of Modal --> 
       </div>
-      <div class="col-sm-12 col-md-6 text-center mt-3">
+      <div class="col-sm-12 col-md-6 text-center align-content-center mt-3">
         <p class="p-about text-justify"> I am now taking bookings for appointments, I am currently working from my home-address, but will move to a seperate location soon. I can also meet on location.</p>
         <p class="p-about text-justify"> Please have a look at the extensive list of treatments that I offer. If you book for an appointment, I will ring you to confirm the time & date. </p>
         <p class="p-about text-justify"> Furthermore, if you see something that is not listed, please let me know, and I will do my utmost best to accomadate you in your request. Look forward seeing you on your next appointment. </p>
@@ -310,10 +310,65 @@
     </div>
     <div class="row justify-content-center appointments-row">
     <div class="col-sm-12 col-md-8 appointments-column">
-      <p class="p-treatments">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit ab, sed quae suscipit iste quidem magnam fugiat aperiam hic, repudiandae possimus non neque cumque optio adipisci qui assumenda numquam? Consectetur!</p>
+      <p class="p-treatments">To book an appointment, please fill in the form below, select your treatment and date, if you'd like to be informed about new offers or products, please subscribe to our newsletter as well.</p>
+		<p class="p-treatments">Once I have received your booking request, I will contact you to confirm the time/date and address. Feel free to add any questions to the comment section, or if you have any specific requests. Look forward seeing you on your next appointment.</p>
     </div>
     <div class="col-sm-12 col-md-8 appointments-column">
- 
+ <form class="needs-validation">
+  <div class="form-row">
+    <div class="col-sm-12 col-md-6 mt-1">
+      <input type="text" class="form-control" placeholder="First name" required>
+    </div>
+    <div class="col-sm-12 col-md-6 mt-1">
+      <input type="text" class="form-control" placeholder="Last name" required>
+    </div>
+	  </div>
+	  <div class="form-row">
+	      <div class="col mt-1">
+       <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="e-mail: name@example.com" required>
+    </div>
+	  </div>
+	  	  <div class="form-row">
+	      <div class="col mt-1">
+<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Please enter your requests, comments or questions"></textarea>
+    </div>
+	  </div>
+	 <div class="form-row">
+	 <div class="col-12 mt-1">
+		       <select class="custom-select" id="inlineFormCustomSelect" required>
+        <option selected>Choose a treatment...</option>
+        <option value="1">Gel Nails*</option>
+        <option value="2">Gel Nails Fill-in</option>
+        <option value="3">Acrylic-Gel Nails*</option>
+        <option value="3">Acrylic-Gel Fill-in</option>
+        <option value="3">Gel Colour</option>
+        <option value="3">Nail Colouring (Incl. Short mani)</option>
+        <option value="3">Mini Manicure</option>
+        <option value="3">Basic Manicure</option>
+        <option value="3">Manicure + Paraffin</option>
+        <option value="3">Paraffin</option>
+        <option value="3">Nail Art</option>
+      </select>
+		 </div>
+		 <div class="col-12 ml-1 mt-1">
+			 <label class="custom-date-label" for="dateslection">Please pick a date from the date-selection below</label>
+		 <input type="date" class="form-control" id="dateselection" placeholder="Select a date" required>
+		 </div>
+	 </div>
+	 <div class="form-row">
+	 <div class="col ml-4 mt-1">
+		 <input class="form-check-input" type="checkbox" id="newsletter">
+		       <label class="form-check-label" for="checkbox">
+        Subscribe to the newsletter.
+      </label>
+		 </div>
+	 </div>
+	 <div class="form-row justify-content-center">
+	 <div class="col text-center">
+		 <button type="submit" class="btn site-button waves-effect waves-light">Submit</button>
+		 </div>
+	 </div>
+</form>
     </div>
 		</div>
   </section>
