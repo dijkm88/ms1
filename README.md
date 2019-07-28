@@ -126,7 +126,7 @@ Once the user nears the end of the gallery section, there are 2 call to action b
 
 ## Deployment ##
 - - - - 
-This project was created by using [Adobe Dreamweaver](https://www.adobe.com/ie/products/dreamweaver.html "Adobe Dreamweaver"), and commited and pushed to GitHub by using [git --everything-is-local](https://git-scm.com/download/win "git --everything-is-local"), which allowed to push to GitHub after installation on local machine.  
+This project was worked on through a local IDE, with the integration of [git --everything-is-local](https://git-scm.com/download/win "git --everything-is-local"), which allowed to push to GitHub after installation on local machine.  
   
 The project has been deployed on Github pages, and I've performed the following steps to make it accessible after committing to Github:
 1. Login into [Github](https://www.github.com/ "Github").
@@ -138,7 +138,26 @@ The project has been deployed on Github pages, and I've performed the following 
 7. After the link was then retrieved under the __GitHub Pages__ section, the repository index was then updated to reflect the correct link on top, and to do so, the following steps where performed:
 	1. On the repository index, we selected *Edit* just below the second menu on top right.
 	2. The correct Repository name was then added with it's corresponding GitHub.io [link](https://dijkm88.github.io/ms1/ "Link to live website")
-
+  
+### How to run this project locally ###
+To clone this project to a local IDE, from GitHub:
+1. Open GitHub, and navigate to the repository page [GitHub - Milestone 1](https://github.com/dijkm88/ms1 "Milstone 1 GitHub Repository")
+2. Under the repository name, click "Clone or download"
+3. In the Clone with HTTPS section, click to copy the clone URL for the repository
+4. Open Git Bash in your local IDE
+5. Change the working directory to the directory where you want the cloned directory to be made
+6. type markup: 'git clone', and then paste the URL that you've retrieved in step 3.
+markup: 'git clone https://github.com/dijkm88/ms1.git'
+7. Press Enter. Your local clone will be created.
+markup: 'git clone https://github.com/dijkm88/ms1.git
+Cloning into 'ms1'...
+remote: Enumerating objects: 75, done.
+remote: Counting objects: 100% (75/75), done.
+remote: Compressing objects: 100% (58/58), done.
+Rremote: Total 539 (delta 19), reused 71 (delta 17), pack-reused 464 iB/s
+Receiving objects: 100% (539/539), 22.62 MiB | 3.77 MiB/s, done.
+Resolving deltas: 100% (205/205), done.'
+8. After receiving confirmation that clone was "done", you can then open/work on the files in the designated folder
 
 ## Credits ##
 - - - - 
