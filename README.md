@@ -149,14 +149,14 @@ To clone this project to a local IDE, from GitHub:
 6. type `git clone'`, and then paste the URL that you've retrieved in step 3.  
 `git clone https://github.com/dijkm88/ms1.git`
 7. Press Enter. Your local clone will be created.  
-`git clone https://github.com/dijkm88/ms1.git  
-Cloning into 'ms1'...  
-remote: Enumerating objects: 75, done.  
-remote: Counting objects: 100% (75/75), done.  
-remote: Compressing objects: 100% (58/58), done.  
-Rremote: Total 539 (delta 19), reused 71 (delta 17), pack-reused 464 iB/s  
-Receiving objects: 100% (539/539), 22.62 MiB | 3.77 MiB/s, done.  
-Resolving deltas: 100% (205/205), done.`  
+`git clone https://github.com/dijkm88/ms1.git`  
+`Cloning into 'ms1'...`  
+`remote: Enumerating objects: 75, done.`  
+`remote: Counting objects: 100% (75/75), done.`  
+`remote: Compressing objects: 100% (58/58), done.`  
+`Rremote: Total 539 (delta 19), reused 71 (delta 17), pack-reused 464 iB/s`  
+`Receiving objects: 100% (539/539), 22.62 MiB | 3.77 MiB/s, done.`  
+`Resolving deltas: 100% (205/205), done.`  
 8. After receiving confirmation that clone was "done", you can then open/work on the files in the designated folder
 
 ## Credits ##
