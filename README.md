@@ -1,5 +1,8 @@
 # Sarina Nails & Beauty #
 - - - - 
+  
+->### [View the website in GitHub Pages](https://dijkm88.github.io/ms1/ "Milestone 1 Michael Dijk") ###<-
+  
 This is a project for a family member, who has recently started her own business in Manicure and Facial treatments (Make-up, skin care). She wanted a professional looking website, that would show to her (potential) customers that she's knowledgable, be able to showcase her previous work through a gallery, a source for new customers, a booking page or section, and a link to her social media accounts.  
   
 With the creation of this website, we've not only achieved the goal of the client, but exceeded it, by offering her customers and new customers the ability to sign up for her newsletter. The newsletter can be used for special occasions i.e. holiday periods, where people in general want to look at their best, also, when there are new treatments available, or new products that she wants to offer her new and current customers.  
