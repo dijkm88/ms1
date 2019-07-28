@@ -147,9 +147,9 @@ To clone this project to a local IDE, from GitHub:
 4. Open Git Bash in your local IDE
 5. Change the working directory to the directory where you want the cloned directory to be made
 6. type markup: 'git clone', and then paste the URL that you've retrieved in step 3.
-markup : 'git clone https://github.com/dijkm88/ms1.git'
+'git clone https://github.com/dijkm88/ms1.git'
 7. Press Enter. Your local clone will be created.
-markup : 'git clone https://github.com/dijkm88/ms1.git
+'git clone https://github.com/dijkm88/ms1.git
 Cloning into 'ms1'...
 remote: Enumerating objects: 75, done.
 remote: Counting objects: 100% (75/75), done.
