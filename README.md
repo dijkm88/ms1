@@ -146,9 +146,9 @@ To clone this project to a local IDE, from GitHub:
 3. In the Clone with HTTPS section, click to copy the clone URL for the repository
 4. Open Git Bash in your local IDE
 5. Change the working directory to the directory where you want the cloned directory to be made
-6. type `git clone'`, and then paste the URL that you've retrieved in step 3.
+6. type `git clone'`, and then paste the URL that you've retrieved in step 3.  
 `git clone https://github.com/dijkm88/ms1.git`
-7. Press Enter. Your local clone will be created.
+7. Press Enter. Your local clone will be created.  
 `git clone https://github.com/dijkm88/ms1.git  
 Cloning into 'ms1'...  
 remote: Enumerating objects: 75, done.  
