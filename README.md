@@ -171,20 +171,23 @@ To clone this project to a local IDE, from GitHub:
 * The English texts have been translated from the original Dutch texts by Michael Dijk.  
 
 ### Media ###
-Some media has been taken from pixabay.  
-- Agenda image for appointments section  
+Some images have been sourced from pixabay.  
+- Agenda image for appointments section header  
+- Nail polish image for the treatments section header  
   
 All digital materials has been provided by the site-owner.
-- Gallery images (certification & gallery)
+- Gallery images (certification & gallery)  
 
 ### Code ###
-* 
-
+* I used text-shadow generator from [HTML - CSS - JS: The Client-Side Of The Web](https://html-css-js.com/css/generator/text-shadow/ "Text Shadow Generator")  
+* I found a script using Jquery on stack overflow, to auto-hide menu after clicking [Stack Overflow](https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click/ "Auto hide Hamburger Menu")  
+* I discovered Fancybox [Fancybox](http://fancyapps.com/fancybox/3/ "Fancybox") from Anna Graeves, Code Institute student 2019 - and with her permission used and adapted some of her code to include it into this website  
+* I applied a smooth-scroll script from W3Schools [W3 School](https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section1 "Smooth Scroll Script")  
+* I applied a scroll-to-top script from the website [scrolltotop.com](https://www.scrolltotop.com/ "Scroll to Top")  
+  
 ### Acknowledgements ###
-I received a lot of inspiration for the design from: uxplanet.  
-I used text-shadow generator from [HTML - CSS - JS: The Client-Side Of The Web](https://html-css-js.com/css/generator/text-shadow/ "Text Shadow Generator")  
-I found a lot of answers on queries that I had in relation to my coding on [Stack Overflow](https://stackoverflow.com "Stack Overflow")  
-I used some sites for helping me choose the right colour scheme:  
-[WebsiteBuilderExpert](https://www.websitebuilderexpert.com/designing-websites/how-to-choose-color-for-your-website/ "How to Choose Good Website Color Scheme")  
-[Color Combos](https://www.colorcombos.com/color-scheme-126.html/ "Colour Combinations Tester")  
-I found a script using Jquery on stack overflow, to auto-hide menu after clicking [Stack Overflow](https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click/ "Auto hide Hamburger Menu")  
+* I received a lot of inspiration for the design from: uxplanet.  
+* I found a lot of answers on queries that I had in relation to my coding on [Stack Overflow](https://stackoverflow.com "Stack Overflow")  
+* I used some sites for helping me choose the right colour scheme:  
+- [WebsiteBuilderExpert](https://www.websitebuilderexpert.com/designing-websites/how-to-choose-color-for-your-website/ "How to Choose Good Website Color Scheme")  
+- [Color Combos](https://www.colorcombos.com/color-scheme-126.html/ "Colour Combinations Tester")  
