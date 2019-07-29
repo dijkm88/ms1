@@ -105,7 +105,16 @@ Once the image is clicked, the visitor can use their fingers to nagivate back an
 Once the user nears the end of the gallery section, there are 2 call to action buttons as we had on our home section, one is for going to the booking section, the other one is for going to the treatments section. This is done, as once the images have been seen, the visitor can decide to book an appointment, or go back to the treatments list, and see what treatments will suit the visitor.  
   
 ### Existing Features ###
-  
+- Header Logo is visible on the top left corner of the page, once the logo is clicked, this will bring you back to the top of the page.  
+- The Header Navigation bar including it's Hamburger Menu, is visible on mobile view and larger screens including desktop view. We've kept the Hamburger Menu, to keep the design clean and minimalistic  
+- We have 2 call to action buttons on the "home" section of the page, they are linked to the booking form and price list. For returning customers/visitors, they can easily book a new appointment, and for new visitors/users they can immediately click on the pricelist button to see the different treatments and prices that go along with those  
+- In the footer section, we've included links to all the owners social media platforms, and if these links are clicked, they are opened in a new window  
+- We've included a "scroll to top" button in the bottom right corner, in case a user/visitor wants to scroll back up and look at other sections - this allows better user experience as opposed to opening the hamburger menu and clicking on a new link  
+- The about section includes a modal button, which once clicked, opens a modal showing all the different certifications from the owner, to display the certifications of the owner, we applied a Fancybox viewer.
+- The about section shows a general map of Amsterdam, as this is the city that the owner is residing her business in, and, below this we have an address and phone number for contact details
+- The Treatments section, offers a price-list and explains each treatment in full detail
+- The Book Appointments section, offers an introduction in the bookings process, the form includes form-validation, which is checked by the browser by using the form class needs-validation, further when they book an appointment, they have the option to check the "Subscribe to newsletter" - to be included in future promotions done by the newsletter. In turn this generates more leads in the future.
+- The gallery makes use of a Fancybox viewer, and each image has a small paragraph detailing what has been done in those images. Below the gallery, we have 2 call-to-action buttons again, 1 will lead to book now, the other will lead to the price-list, which is situated above the booking form.
 
   
 ### Features left to implement in future releases ###
@@ -172,8 +181,8 @@ To clone this project to a local IDE, from GitHub:
 
 ### Media ###
 Some images have been sourced from pixabay.  
-- Agenda image for appointments section header  
-- Nail polish image for the treatments section header  
+- Agenda image for appointments section header (Image is Free For Commercial Use) [Agenda Image](https://pixabay.com/photos/day-planner-calendar-organizer-828611/ "Agenda Image") 
+- Nail polish image for the treatments section header  (Image is Free For Commercial Use) [Nail Polish Image](https://pixabay.com/photos/manicure-pedicure-cosmetics-870857/ "Nail Polish Image") 
   
 All digital materials has been provided by the site-owner.
 - Gallery images (certification & gallery)  
