@@ -144,23 +144,23 @@ The website's code and it's validity has been tested by using:
 
 ## User story testing ##
 * As a potential customer, I want to have an easy overview of what type of treatments I could choose from, so I can make a decission about making an appointment.  
-		* The user and potential customers arrives at the website
-		* Once at the website, the home section has 2 clear call-to-action buttons, one is "book now" and the other one is "treatments"
-		* The user and potential customer can click on the call-to-action button "treatments" and is then immediately taken to the treatments section
-		* Once arrived in the treatments section, there is a small introductory paragraph, detailing how the booking experience will be, and how it's going to be confirmed.
-		* It the user and potential customer decides to book, we've purposely not added a call-to-action button, as the booking form is situated directly below the treatments section
-		* The user and potential customer can then decide to book, or go back up to the home section of the site, by using the "up" arrow in the bottom right corner, or, to use the hamburger menu and click home - for both options the user will be taken to the top of the site.
-* As a potential customer and visitor to the site, I want to view the gallery, so I can see what type of treatments have been done previously, and I could decide if I want to make an appointment for a session. 
-		*
+		* The user and potential customers arrives at the website  
+		* Once at the website, the home section has 2 clear call-to-action buttons, one is "book now" and the other one is "treatments"  
+		* The user and potential customer can click on the call-to-action button "treatments" and is then immediately taken to the treatments section  
+		* Once arrived in the treatments section, there is a small introductory paragraph, detailing how the booking experience will be, and how it's going to be confirmed.  
+		* It the user and potential customer decides to book, we've purposely not added a call-to-action button, as the booking form is situated directly below the treatments section  
+		* The user and potential customer can then decide to book, or go back up to the home section of the site, by using the "up" arrow in the bottom right corner, or, to use the hamburger menu and click home - for both options the user will be taken to the top of the site.  
+* As a potential customer and visitor to the site, I want to view the gallery, so I can see what type of treatments have been done previously, and I could decide if I want to make an appointment for a session.  
+		* 
 * As a new visitor to the site, I want the site to be easy to navigate, so I can find what I was looking for in an easy way.  
-		*
+		* 
 * As a potential customer, I want to read previous reviews, so I can see what others have to say to make my decission for booking in an appointment easier.  
-		*
+		* 
 * As a potential customer, I would like to read about the store/owner, so I get a better understanding if this is the right fit for myself.  
-		*
+		* 
 * As a new visitor and potential customer on the site, I want the bookings experience, to be easy and understandable.  
-		*
-* As a new customer, I want to understand the opening / working hours, and where to go to in case of a booking. 
+		* 
+* As a new customer, I want to understand the opening / working hours, and where to go to in case of a booking.  
 		*
 
 ## Deployment ##
