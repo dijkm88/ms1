@@ -47,7 +47,7 @@
   text-transform: uppercase;
   text-shadow: 2px 2px 0px rgb(242, 0, 86);
 }
-.p-treatments, .p-about {
+.p-text {
   font-family: 'Encode Sans Condensed', sans-serif;
   font-weight: 300;
   color: #F20056;
