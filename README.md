@@ -143,7 +143,6 @@ The website's code and it's validity has been tested by using:
 - [W3C Markup Validation Service](https://validator.w3.org/ "Markup Validation Service")  
 
 ## User story testing ##
-- - - - 
 * As a potential customer, I want to have an easy overview of what type of treatments I could choose from, so I can make a decission about making an appointment.  
 	i. The user and potential customers arrives at the website
 	ii. Once at the website, the home section has 2 clear call-to-action buttons, one is "book now" and the other one is "treatments"
