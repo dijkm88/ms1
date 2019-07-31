@@ -115,12 +115,15 @@ Once the user nears the end of the gallery section, there are 2 call to action b
 - The Treatments section, offers a price-list and explains each treatment in full detail
 - The Book Appointments section, offers an introduction in the bookings process, the form includes form-validation, which is checked by the browser by using the form class needs-validation, further when they book an appointment, they have the option to check the "Subscribe to newsletter" - to be included in future promotions done by the newsletter. In turn this generates more leads in the future.
 - The gallery makes use of a Fancybox viewer, and each image has a small paragraph detailing what has been done in those images. Below the gallery, we have 2 call-to-action buttons again, 1 will lead to book now, the other will lead to the price-list, which is situated above the booking form.
+- Each section heading has a parallax scrolling effect for desktop view. This is overwritten by a media query for smaller (mobile) screens, as after testing, we discovered that this did not work/apply to those screens.
 
   
 ### Features left to implement in future releases ###
 * A toggle button for English / Dutch, as the site-owner has her business in Amsterdam, The Netherlands. This way, the site is able to be attractive to not only native speaking people from the Netherlands, but also English speaking people who live in the Netherlands, or who search for a nail salon online.  
 * Google Analytics - for understanding what a customer does, where they come from, and, to adjust the customers furture advertisement needs (Youtube, Facebook, Groupon)
 * Insert a GDPR pop-up, to notify the visitor, and, giving them the option to agree on the tracking terms, or to refuse them
+* A full booking experience, where the user can select a date and slot, and, immediately pay online, guarranteeing the business owner revenue even if the person who booked the session does not show up.
+* A backend to have the contact-form actually send through data to the owner. Extract e-mail address for mailing list when they opted in for the mailing list
 
 ## Technology used ##
 - - - - 
@@ -135,6 +138,25 @@ Once the user nears the end of the gallery section, there are 2 call to action b
 
 ## Testing ##
 - - - - 
+The website's code and it's validity has been tested by using:
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "CSS Validation service")  
+- [W3C Markup Validation Service](https://validator.w3.org/ "Markup Validation Service")  
+
+## User story testing ##
+- - - - 
+* As a potential customer, I want to have an easy overview of what type of treatments I could choose from, so I can make a decission about making an appointment.  
+	i. The user and potential customers arrives at the website
+	ii. Once at the website, the home section has 2 clear call-to-action buttons, one is "book now" and the other one is "treatments"
+	iii. The user and potential customer can click on the call-to-action button "treatments" and is then immediately taken to the treatments section
+	iiii. Once arrived in the treatments section, there is a small introductory paragraph, detailing how the booking experience will be, and how it's going to be confirmed.
+	iiiii. It the user and potential customer decides to book, we've purposely not added a call-to-action button, as the booking form is situated directly below the treatments section
+	iiiiii. The user and potential customer can then decide to book, or go back up to the home section of the site, by using the "up" arrow in the bottom right corner, or, to use the hamburger menu and click home - for both options the user will be taken to the top of the site.
+* As a potential customer and visitor to the site, I want to view the gallery, so I can see what type of treatments have been done previously, and I could decide if I want to make an appointment for a session.  
+* As a new visitor to the site, I want the site to be easy to navigate, so I can find what I was looking for in an easy way.  
+* As a potential customer, I want to read previous reviews, so I can see what others have to say to make my decission for booking in an appointment easier.  
+* As a potential customer, I would like to read about the store/owner, so I get a better understanding if this is the right fit for myself.  
+* As a new visitor and potential customer on the site, I want the bookings experience, to be easy and understandable.  
+* As a new customer, I want to understand the opening / working hours, and where to go to in case of a booking. 
 
 ## Deployment ##
 - - - - 
