@@ -50,7 +50,6 @@ When you're on the full desktop site, and hover over a link, the link will chang
 * As a potential customer, I want to have an easy overview of what type of treatments I could choose from, so I can make a decission about making an appointment.  
 * As a potential customer and visitor to the site, I want to view the gallery, so I can see what type of treatments have been done previously, and I could decide if I want to make an appointment for a session.  
 * As a new visitor to the site, I want the site to be easy to navigate, so I can find what I was looking for in an easy way.  
-* As a potential customer, I want to read previous reviews, so I can see what others have to say to make my decission for booking in an appointment easier.  
 * As a potential customer, I would like to read about the store/owner, so I get a better understanding if this is the right fit for myself.  
 * As a new visitor and potential customer on the site, I want the bookings experience, to be easy and understandable.  
 * As a new customer, I want to understand the opening / working hours, and where to go to in case of a booking.  
@@ -123,7 +122,9 @@ Once the user nears the end of the gallery section, there are 2 call to action b
 * Google Analytics - for understanding what a customer does, where they come from, and, to adjust the customers furture advertisement needs (Youtube, Facebook, Groupon)
 * Insert a GDPR pop-up, to notify the visitor, and, giving them the option to agree on the tracking terms, or to refuse them
 * A full booking experience, where the user can select a date and slot, and, immediately pay online, guarranteeing the business owner revenue even if the person who booked the session does not show up.
-* A backend to have the contact-form actually send through data to the owner. Extract e-mail address for mailing list when they opted in for the mailing list
+* A backend to have the contact-form actually send through data to the owner. Extract e-mail address for mailing list when they opted in for the mailing list  
+* Fully adjusted form to compliment the website and it's colours. To have a fully responsive form, that gives feedback once the form is incorrectly filled in.  
+* Changing the modal button to hide on large screens, so that the gallery of certifications appear below the left side of the text.  
 
 ## Technology used ##
 - - - - 
@@ -143,25 +144,47 @@ The website's code and it's validity has been tested by using:
 - [W3C Markup Validation Service](https://validator.w3.org/ "Markup Validation Service")  
 
 ### User story testing ###
-1 As a potential customer, I want to have an easy overview of what type of treatments I could choose from, so I can make a decission about making an appointment.  
-	1 The user and potential customers arrives at the website  
-	2 Once at the website, the home section has 2 clear call-to-action buttons, one is "book now" and the other one is "treatments"  
-	3 The user and potential customer can click on the call-to-action button "treatments" and is then immediately taken to the treatments section  
-	4 Once arrived in the treatments section, there is a small introductory paragraph, detailing how the booking experience will be, and how it's going to be confirmed.  
-	5 It the user and potential customer decides to book, we've purposely not added a call-to-action button, as the booking form is situated directly below the treatments section  
-	6 The user and potential customer can then decide to book, or go back up to the home section of the site, by using the "up" arrow in the bottom right corner, or, to use the hamburger menu and click home - for both options the user will be taken to the top of the site.  
-* As a potential customer and visitor to the site, I want to view the gallery, so I can see what type of treatments have been done previously, and I could decide if I want to make an appointment for a session.  
-		* 
+1. As a potential customer, I want to have an easy overview of what type of treatments I could choose from, so I can make a decission about making an appointment.  
+	1. The user and potential customers arrives at the website  
+	2. Once at the website, the home section has 2 clear call-to-action buttons, one is "book now" and the other one is "treatments"  
+	3. The user and potential customer can click on the call-to-action button "treatments" and is then immediately taken to the treatments section  
+	4. Once arrived in the treatments section, there is a small introductory paragraph, detailing how the booking experience will be, and how it's going to be confirmed.  
+	5. It the user and potential customer decides to book, we've purposely not added a call-to-action button, as the booking form is situated directly below the treatments section  
+	6. The user and potential customer can then decide to book, or go back up to the home section of the site, by using the "up" arrow in the bottom right corner, or, to use the hamburger menu and click home - for both options the user will be taken to the top of the site.  
+2. As a potential customer and visitor to the site, I want to view the gallery, so I can see what type of treatments have been done previously, and I could decide if I want to make an appointment for a session.  
+	1. The user and potential customer arrives at the website  
+	2. The user and potential customer will then click on the hamburger menu on the right side of the website, and the menu section will expand, giving them the options to choose from  
+	3. The user then clicks on "gallery" and the page will then smoothly scroll down to the "gallery" section of the website  
+	4. The user then clicks on one of the images, to read a small explanatory text about the image, and, to scroll through the images 
+	5. On the desktop version the user can use the arrows left and right, or click on the image and move them either left or right to scroll through the available images in the gallery section, the same behaviour is used / applied in the mobile site  
+	6. Once the user has been able to make a choice, and decided to book an appointment, the user will exit the gallery  
+	7. At the bottom of the gallery section, there are 2 call to action buttons, one goes to the treatments section which includes the price list, the other one goes directly to the booking form  
+	8. If the user wants to go back to the top, they can either use the scroll-to-top arrow on the right bottom corner of the site, or click the hamburger menu and select home
 * As a new visitor to the site, I want the site to be easy to navigate, so I can find what I was looking for in an easy way.  
-		* 
-* As a potential customer, I want to read previous reviews, so I can see what others have to say to make my decission for booking in an appointment easier.  
-		* 
+	1. No matter what section of the site the user is on, there is a clear navigation bar on the top of the site  
+	2. The user can select the hamburger icon, to expand the menu, and show the available options to go to, if they are on a certain section of the site, they can use the scroll-to-top arrow on the bottom right corner, they can select the logo of the site which will allow them to scroll to top as well, or expand the menu through the hamburger icon, and select "home".
 * As a potential customer, I would like to read about the store/owner, so I get a better understanding if this is the right fit for myself.  
-		* 
+	1. The user and potential customer arrives at the website  
+	2. The user then goes into the hamburger menu, and selects about, the user then get's scrolled automatically to the about section.  
+	3. Here the user can read about the owner, see her certifications by clicking the modal button "My Certifications", and also read about working hours and the contact details  
+	4. If the user then decides to book an appointment, there is a button located below the introduction, where the user then can click to go to the treatments section.  
 * As a new visitor and potential customer on the site, I want the bookings experience, to be easy and understandable.  
-		* 
+	1. The user and potential customer arrives at the website  
+	2. Once arrived at the website, there are 2 call to action buttons, which will either bring the user to the booking section, or treatments section  
+	3. If the user decides to look at the treatments section, they scroll downwards on the list of treatments, and, will see the booking section then, to allow for bookings  
+	4. The user then decides to book an appointment.  
 * As a new customer, I want to understand the opening / working hours, and where to go to in case of a booking.  
-		*
+	1. The user and potential customer arrives at the website  
+	2. The user then clicks on the hamburger menu, and clicks on about  
+	3. In the about section, the user can then read about the business, and, look at the working hours, and contact details  
+	4. From here onwards the user can then decide to look at further sections of the page, or scoll back up by clicking the scroll-up arrow, or to use the home button (logo top-left corner)  
+  
+### Manual testing across different devices and browsers ###
+* While testing the website on mobile view, discovered that parallax scrolling wasn't correctly working, therefore put a media query in place to address these issues, and overwritten the parallax scrolling with a static background.  
+* While testing on mobile view / mobile phones, discovered that the menu items where larger than expected, therefore adjusted the original idea of a full-screen collapsible menu.  
+* While testing the gallery section, discovered that some images did not load properly, adjusted this.  
+* Tested the responsiveness of the website across various devices (iPad, android and iPhone)  
+* tested the booking form, and applied a browser check to the form. Form is responsive and, does not submit until all valid fiels are filled in.  
 
 ## Deployment ##
 - - - - 
