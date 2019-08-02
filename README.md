@@ -35,12 +35,12 @@ By delivering a clean and modern site, for this, I have used a one-page approach
 
 We will use a tree structure using the burger icon on the top right of the page, the menu will collapse, with a modern font. 
 
-![picture alt](assets/readme/menu-structure.png "The Menu Structure of the Site")
+![picture alt](assets/readme/menustructure.png "The Menu Structure of the Site")
 
 ### Colour Scheme ###
 We have choosen 3 predominant colours.
 
-![picture alt](assets/readme/site-colours.png "The colours used in the site")
+![picture alt](assets/readme/sitecolours.png "The colours used in the site")
 
 Main colour #FFBAD2 is choosen as pink. As pink represents femininity, it's also often used to market products to women and young girls. Furthermore I've added 2 other accent colours to compliment the pink colour, as seen above.
 
@@ -65,7 +65,7 @@ When you're on the full desktop site, and hover over a link, the link will chang
 - - - - 
 The website is created as a one-page design, featuring a navigation bar with a hamburger icon, the Hamburger icon in the navbar, is quite predominantly present, to get the users attention, to be able to move back and forth on the site. It's fully responsive and adapts from mobile to larger screens. In the footer section we have links to the business-owners social media pages. Every section features an introduction heading, and this is done so clear destinction can be made between each section of the page.  
   
-__Home__  
+#### Home ####
   
 The home section features a large full screen background, with the business's logo being the predominant image. The background is from one of the owners treatments with a gradient overlay, from pink in the top-left corner to the secundairy colour beige in the right bottom corner, we've made this stand out by incorporating the parallax scrolling effect.  
   
@@ -73,19 +73,19 @@ Furthermore it contains the motto/slogan of the owner: __"Beauty is confidence d
 
 The parallax scrolling is removed with a media query, as, some mobile devices like iOS and Android are not capable of processing this feature.  
   
-__About__ 
+#### About ####
   
 The 2nd section on the page is the about section. Again, we have a section with a header using the parralax scrolling effect, which is overwritten by a media query for mobile phones and smaller screens, as this does not work correctly on those devices. Choosing the about section as the second section is done to create an interest in the owner and to showcase the certifications that the owner of the salon has received, for mobile view, we have a call to action button which says: "My Certification", and on larger screens, the certifications are listed as direct gallery images below the introduction. This is done so that the visitor and potential new customer is confident that once they make a booking with her salon, that they are in good hands.  
   
 There is a small paragraph explaining to the visitor why she has choosen this proffesion, the location of where she normally does the treatments and her working hours, also, it's mentioned that if a certain treatment isn't listed, the visitor can discuss this with the owner, besides meeting at her address, she provides the option to meet on location, giving the visitor and potential customer a way to become familiar without leaving their comfort zone.  
   
-__Treatments__  
+#### Treatments ####
   
 The treatment section also starts with a header with a parallax scrolling effect, which is overwritten by a media query for smaller devices / screens. The treatments section has an introductory paragraph, explaining the process of how a (potential) customer can book, that when an booking has been made / requested, the owner will contact the customer to confirm booking: time, date and place. The treatments are currently at the owners home-address, but, that she can also meet on location for a small fee to accomadate for driving.  
   
 Next part in the treatments section is the list of treatments. This includes a small paragraph explaining each treatment in detail, and current price. As the treatments section is located directly above the booking section, there was no need to include another call to action button to book, as once they scroll further down the list, both on Mobile as Desktop, they will notice the booking section.  
   
-__Book An Appointment__
+#### Book an appointment ####
   
 The Book An Appointment section, as all other sections on the page, start with a header for that section, that has an parralax scrolling effect, which is overwritten by a media query to have it set to a static image.  
   
@@ -93,7 +93,7 @@ Furthermore, there is an introductory paragraph, explaining the process once mor
   
 The contact form, which is currently used for bookings, has a dropdown, where the (potential) customer can select the treatment. This dropdown isn't required, but the remaining fields are mandatory fields. Once the booking is received, the owner will contact the customer, to confirm appointment and discuss the options.  
   
-__Gallery__
+#### Gallery ####
   
 The gallery section starts as with all other sections with a header, that has an parralax scrolling effect, which is overwritten by a media query to have it set to a static image for smaller size screens.  The header contains heading text, to confirm that the visitor is on the correct section of the page.  
   
@@ -135,7 +135,7 @@ Once the user nears the end of the gallery section, there are 2 call to action b
 * The project also used __Font Awesome__ - release 5.8.2 to supply icons -  [Font Awesome](https://fontawesome.com/ "Font Awesome")  
 * The project uses __Google Fonts__ to style the website fonts -  [Google Fonts](https://fonts.google.com/ "Google Fonts")  
 * The project uses __Popper.js__ for Javascript popups and responsive navigation - [Popper.js](https://popper.js.org/ "Popper.js")  
-* The project uses __Pixabay__ for a license free backgound for the Book An Appointment section header - [Pixabay](https://pixabay.com/ "Pixabay")  
+* The project uses __Pixabay__ for a license free backgound for the Book An Appointment section header and the treatments section header - [Pixabay](https://pixabay.com/ "Pixabay")  
 
 ## Testing ##
 - - - - 
@@ -160,20 +160,20 @@ The website's code and it's validity has been tested by using:
 	6. Once the user has been able to make a choice, and decided to book an appointment, the user will exit the gallery  
 	7. At the bottom of the gallery section, there are 2 call to action buttons, one goes to the treatments section which includes the price list, the other one goes directly to the booking form  
 	8. If the user wants to go back to the top, they can either use the scroll-to-top arrow on the right bottom corner of the site, or click the hamburger menu and select home
-* As a new visitor to the site, I want the site to be easy to navigate, so I can find what I was looking for in an easy way.  
+3. As a new visitor to the site, I want the site to be easy to navigate, so I can find what I was looking for in an easy way.  
 	1. No matter what section of the site the user is on, there is a clear navigation bar on the top of the site  
 	2. The user can select the hamburger icon, to expand the menu, and show the available options to go to, if they are on a certain section of the site, they can use the scroll-to-top arrow on the bottom right corner, they can select the logo of the site which will allow them to scroll to top as well, or expand the menu through the hamburger icon, and select "home".
-* As a potential customer, I would like to read about the store/owner, so I get a better understanding if this is the right fit for myself.  
+4. As a potential customer, I would like to read about the store/owner, so I get a better understanding if this is the right fit for myself.  
 	1. The user and potential customer arrives at the website  
 	2. The user then goes into the hamburger menu, and selects about, the user then get's scrolled automatically to the about section.  
 	3. Here the user can read about the owner, see her certifications by clicking the modal button "My Certifications", and also read about working hours and the contact details  
 	4. If the user then decides to book an appointment, there is a button located below the introduction, where the user then can click to go to the treatments section.  
-* As a new visitor and potential customer on the site, I want the bookings experience, to be easy and understandable.  
+5. As a new visitor and potential customer on the site, I want the bookings experience, to be easy and understandable.  
 	1. The user and potential customer arrives at the website  
 	2. Once arrived at the website, there are 2 call to action buttons, which will either bring the user to the booking section, or treatments section  
 	3. If the user decides to look at the treatments section, they scroll downwards on the list of treatments, and, will see the booking section then, to allow for bookings  
 	4. The user then decides to book an appointment.  
-* As a new customer, I want to understand the opening / working hours, and where to go to in case of a booking.  
+6. As a new customer, I want to understand the opening / working hours, and where to go to in case of a booking.  
 	1. The user and potential customer arrives at the website  
 	2. The user then clicks on the hamburger menu, and clicks on about  
 	3. In the about section, the user can then read about the business, and, look at the working hours, and contact details  
@@ -183,8 +183,8 @@ The website's code and it's validity has been tested by using:
 * While testing the website on mobile view, discovered that parallax scrolling wasn't correctly working, therefore put a media query in place to address these issues, and overwritten the parallax scrolling with a static background.  
 * While testing on mobile view / mobile phones, discovered that the menu items where larger than expected, therefore adjusted the original idea of a full-screen collapsible menu.  
 * While testing the gallery section, discovered that some images did not load properly, adjusted this.  
-* Tested the responsiveness of the website across various devices (iPad, android and iPhone)  
-* tested the booking form, and applied a browser check to the form. Form is responsive and, does not submit until all valid fiels are filled in.  
+* Tested the responsiveness of the website across various devices (iPad, android and iPhone), and adjustments where correctly being displayed, also discovered that I should incorporate that the modal should be hidden for the about section on large screens. This will be implemented in a future release.  
+* tested the booking form, and applied a browser check to the form. Form is responsive and, does not submit until all valid fields are filled in, when a field is missing once submit is pressed, it'll take the user to that field.  
 
 ## Deployment ##
 - - - - 
@@ -248,5 +248,5 @@ All digital materials has been provided by the site-owner.
 * I received a lot of inspiration for the design from: uxplanet.  
 * I found a lot of answers on queries that I had in relation to my coding on [Stack Overflow](https://stackoverflow.com "Stack Overflow")  
 * I used some sites for helping me choose the right colour scheme:  
-- [WebsiteBuilderExpert](https://www.websitebuilderexpert.com/designing-websites/how-to-choose-color-for-your-website/ "How to Choose Good Website Color Scheme")  
-- [Color Combos](https://www.colorcombos.com/color-scheme-126.html/ "Colour Combinations Tester")  
+	* [WebsiteBuilderExpert](https://www.websitebuilderexpert.com/designing-websites/how-to-choose-color-for-your-website/ "How to Choose Good Website Color Scheme")  
+	* [Color Combos](https://www.colorcombos.com/color-scheme-126.html/ "Colour Combinations Tester")  
