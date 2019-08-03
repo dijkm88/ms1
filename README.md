@@ -3,17 +3,17 @@
   
 [View the website in GitHub Pages](https://dijkm88.github.io/ms1/ "Milestone 1 Michael Dijk")
   
-This is a project for a family member, who has recently started her own business in Manicure and Facial treatments (Make-up, skin care). She wanted a professional looking website, that would show to her (potential) customers that she's knowledgable, be able to showcase her previous work through a gallery, a source for new customers, a booking page or section, and a link to her social media accounts.  
+This is a project for a family member, who has recently started her own business in Manicure and Facial treatments (Make-up, skin care). She wanted a professional looking website, that would show to her (potential) customers that she's knowledgable, be able to showcase her previous work through a gallery, become a source for new customers, it has a booking page or section, and a link to her social media accounts.  
   
-With the creation of this website, we've not only achieved the goal of the client, but exceeded it, by offering her customers and new customers the ability to sign up for her newsletter. The newsletter can be used for special occasions i.e. holiday periods, where people in general want to look at their best, also, when there are new treatments available, or new products that she wants to offer her new and current customers.  
+With the creation of this website, we've not only achieved the goal of the client, but exceeded it, by offering her customers and new customers the ability to sign up for her newsletter when booking an appointment. The newsletter can be used for special occasions i.e. holiday periods, where people in general want to look their best, also, when there are new treatments available, or new products that she wants to offer her new and current customers.  
   
 ## UX ##
 - - - - 
 ### For what users is this site created ###
-Users of the site will be generally more leaning towards women, but not limited to, who are into nail care, and make up art / skin care, and would be between the age of 18 – 60s.
+Users of the site will be generally more leaning towards women, but not limited to, who are into nail care, make up art and skin care, and would be between the age of 18 – 60s.
 
 ### Why is this site so special? ###
-For users and potential customers, to be able to book appointments, look at a gallery of work done previously, generate leads by offering a newsletter for sending discounts to the e-mail, so customers could then book an appointment.
+For users and potential customers, to be able to book appointments, look at a gallery of work done previously, generating leads by offering a newsletter which can serve multiple purposes, increase revenue by offering discounts, and informing customers of new upcoming products.
 
 Linking in with Social Media: YouTube, Facebook, Twitter, Pinterest, and this way also have an increased brand-awareness, as customers could give reviews on here as well.
 
@@ -27,7 +27,7 @@ A user would want this, as the site will give them access to do the following:
 * Book appointments
 
 ### How is my project the best way to achieve this? ###
-By providing a website, where the main topic is, __less is more__, I make a responsive site, which will show or build confidence to the visitor and potential customer. This is done by having high-resolution images, a gallery, testimonials in the future, and well written about me section, where the visitor can get to know the owner and see her certification, but most importantly by being visibile on the internet.
+By providing a website, where the main topic is, __less is more__, I make a responsive site, which will show or build confidence to the visitor and potential customer. This is done by having high-resolution images, a gallery, testimonials in the future, and a well written about section, where the visitor can get to know the owner and see her certification, but most importantly by being visibile on the internet.
 
 Due to the fact that I know the owner of this business, we've worked closely together to achieve the best possible outcome, towards both user and site owner. 
 
@@ -67,15 +67,15 @@ The website is created as a one-page design, featuring a navigation bar with a h
   
 #### Home ####
   
-The home section features a large full screen background, with the business's logo being the predominant image. The background is from one of the owners treatments with a gradient overlay, from pink in the top-left corner to the secundairy colour beige in the right bottom corner, we've made this stand out by incorporating the parallax scrolling effect.  
+The home section features a large full screen background, with the business's logo being the predominant image. The background is from one of the owners treatments with a gradient overlay, from pink in the top-left corner to a light secundairy colour in the right bottom corner, we've made this stand out by incorporating the parallax scrolling effect.  
   
-Furthermore it contains the motto/slogan of the owner: __"Beauty is confidence directly to your face and nails"__, and an introductory text: __"Welcome to Sarina nails & Beauty"__. Below this, we have 2 buttons, book now and price list. We have kept the home section of the site fairly clean, to have a maximum impact on the visitor with the logo, motto and call to action buttons to get the user and (potential) customer to look at the price list and then a direct booking option for returning customers.
+Furthermore it contains the motto/slogan of the owner: __"Beauty is confidence directly to your face and nails"__, and an introductory text: __"Welcome to Sarina nails & Beauty"__. Below this, we have 2 buttons, book now and treatments / price list. We have kept the home section of the site clean, to have a maximum impact on the visitor with the logo, motto and call to action buttons to get the user and (potential) customer to look at the treatments / price list and then a direct booking option for returning customers.
 
 The parallax scrolling is removed with a media query, as, some mobile devices like iOS and Android are not capable of processing this feature.  
   
 #### About ####
   
-The 2nd section on the page is the about section. Again, we have a section with a header using the parralax scrolling effect, which is overwritten by a media query for mobile phones and smaller screens, as this does not work correctly on those devices. Choosing the about section as the second section is done to create an interest in the owner and to showcase the certifications that the owner of the salon has received, for mobile view, we have a call to action button which says: "My Certification", and on larger screens, the certifications are listed as direct gallery images below the introduction. This is done so that the visitor and potential new customer is confident that once they make a booking with her salon, that they are in good hands.  
+The 2nd section on the page is the about section. Again, we have a section with a header using the parralax scrolling effect, which is overwritten by a media query for mobile phones and smaller screens, as this does not work correctly on those devices. Choosing the about section as the second section is done to create an interest in the owner and to showcase the certifications that the owner of the salon has received, we have a call to action button which says: "My Certification", and once this is pressed, a modal will open with a gallery showcasing the owners certifications. This is done so that the visitor and potential new customer is confident that once they make a booking with her salon, that they are in good hands.  
   
 There is a small paragraph explaining to the visitor why she has choosen this proffesion, the location of where she normally does the treatments and her working hours, also, it's mentioned that if a certain treatment isn't listed, the visitor can discuss this with the owner, besides meeting at her address, she provides the option to meet on location, giving the visitor and potential customer a way to become familiar without leaving their comfort zone.  
   
@@ -83,21 +83,21 @@ There is a small paragraph explaining to the visitor why she has choosen this pr
   
 The treatment section also starts with a header with a parallax scrolling effect, which is overwritten by a media query for smaller devices / screens. The treatments section has an introductory paragraph, explaining the process of how a (potential) customer can book, that when an booking has been made / requested, the owner will contact the customer to confirm booking: time, date and place. The treatments are currently at the owners home-address, but, that she can also meet on location for a small fee to accomadate for driving.  
   
-Next part in the treatments section is the list of treatments. This includes a small paragraph explaining each treatment in detail, and current price. As the treatments section is located directly above the booking section, there was no need to include another call to action button to book, as once they scroll further down the list, both on Mobile as Desktop, they will notice the booking section.  
+Next part in the treatments section is the list of treatments. This includes a small paragraph explaining each treatment in detail, and current price. As the treatments section is located directly above the booking section, there was no need to include another call to action button to book, as once they scroll further down the list, both on Mobile and Desktop, they will notice the booking section.  
   
 #### Book an appointment ####
   
 The Book An Appointment section, as all other sections on the page, start with a header for that section, that has an parralax scrolling effect, which is overwritten by a media query to have it set to a static image.  
   
-Furthermore, there is an introductory paragraph, explaining the process once more, to reassure the (potential) customer of what will happen after it's booked.  
+Furthermore, there is an introductory paragraph, explaining the process once more, to reassure the (potential) customer of what will happen after a booking has been made.  
   
-The contact form, which is currently used for bookings, has a dropdown, where the (potential) customer can select the treatment. This dropdown isn't required, but the remaining fields are mandatory fields. Once the booking is received, the owner will contact the customer, to confirm appointment and discuss the options.  
+The contact form, which is currently used for bookings, has a dropdown, where the (potential) customer can select the a treatment. This dropdown isn't required, but the remaining fields are required fields. Once the booking is received, the owner will contact the customer, to confirm appointment and discuss the options.  
   
 #### Gallery ####
   
 The gallery section starts as with all other sections with a header, that has an parralax scrolling effect, which is overwritten by a media query to have it set to a static image for smaller size screens.  The header contains heading text, to confirm that the visitor is on the correct section of the page.  
   
-The gallery itself has 2 column width on smaller screens like mobile phones, and will go to 4 column width for larger screens. Above the images itself, there is a small introduction which mentions that these images are made from work done in the past, and that the visitor can click on the image to see it in full-size.  
+The gallery itself has 2 column width on smaller screens like mobile phones, and will go to 4 column width for larger screens. Above the image section itself, there is a small introduction which mentions that these images are made from work done in the past, and that the visitor can click on the image to see it in full-size.  
   
 Once the image is clicked, the visitor can use their fingers to nagivate back and forth, as we are utilizing Fancybox. Also, Fancybox incorporates a slide-show feature, which will run and show each image for several seconds before moving onto the next. Each image once opened full-size with fancybox, has a small paragraph explaining what treatment has been done.  
   
@@ -106,12 +106,12 @@ Once the user nears the end of the gallery section, there are 2 call to action b
 ### Existing Features ###
 - Header Logo is visible on the top left corner of the page, once the logo is clicked, this will bring you back to the top of the page.  
 - The Header Navigation bar including it's Hamburger Menu, is visible on mobile view and larger screens including desktop view. We've kept the Hamburger Menu, to keep the design clean and minimalistic  
-- We have 2 call to action buttons on the "home" section of the page, they are linked to the booking form and price list. For returning customers/visitors, they can easily book a new appointment, and for new visitors/users they can immediately click on the pricelist button to see the different treatments and prices that go along with those  
-- In the footer section, we've included links to all the owners social media platforms, and if these links are clicked, they are opened in a new window  
-- We've included a "scroll to top" button in the bottom right corner, in case a user/visitor wants to scroll back up and look at other sections - this allows better user experience as opposed to opening the hamburger menu and clicking on a new link  
+- We have 2 call to action buttons on the "home" section of the page, they are linked to the booking form and price list. For returning customers/visitors, they can easily book a new appointment, and for new visitors/users they can immediately click on the treatments / pricelist button to see the different treatments and prices that go along with those.  
+- In the footer section, we've included links to all the owners social media platforms, and if these links are clicked, they are opened in a new window.  
+- We've included a "scroll to top" button in the bottom right corner, in case a user/visitor wants to scroll back up and look at other sections - this allows better user experience as opposed to opening the hamburger menu and clicking on a new link.  
 - The about section includes a modal button, which once clicked, opens a modal showing all the different certifications from the owner, to display the certifications of the owner, we applied a Fancybox viewer.
-- The about section shows a general map of Amsterdam, as this is the city that the owner is residing her business in, and, below this we have an address and phone number for contact details
-- The Treatments section, offers a price-list and explains each treatment in full detail
+- The about section shows a general map of Amsterdam, as this is the city that the owner is residing her business in, and, below this we have an address and phone number for contact details.
+- The Treatments section, offers a price-list and explains each treatment in full detail.
 - The Book Appointments section, offers an introduction in the bookings process, the form includes form-validation, which is checked by the browser by using the form class needs-validation, further when they book an appointment, they have the option to check the "Subscribe to newsletter" - to be included in future promotions done by the newsletter. In turn this generates more leads in the future.
 - The gallery makes use of a Fancybox viewer, and each image has a small paragraph detailing what has been done in those images. Below the gallery, we have 2 call-to-action buttons again, 1 will lead to book now, the other will lead to the price-list, which is situated above the booking form.
 - Each section heading has a parallax scrolling effect for desktop view. This is overwritten by a media query for smaller (mobile) screens, as after testing, we discovered that this did not work/apply to those screens.
